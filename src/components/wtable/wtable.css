@@ -1,0 +1,30 @@
+.header-wishlist h2 {
+  margin-top: 5rem;
+  margin-left: 10rem;
+  color: #a04cd7;
+}
+.table {
+  border: #000 1px solid;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.first-tab {
+  display: flex;
+  margin-top: 1rem;
+  border-bottom: #000 1px solid;
+}
+
+.first-tab h4 {
+  margin-right: 15rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+.sec-tab h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  font-weight: 200;
+  color: rgb(125, 121, 121);
+}

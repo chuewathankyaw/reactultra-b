@@ -1,0 +1,12 @@
+.bannerContainer {
+  background: url(/public/images/wishlist.banner.png);
+  height: 30rem;
+  background-size: cover;
+  margin-top: 6.5rem;
+}
+.bannerContainer h1 {
+  text-align: center;
+  padding-top: 10rem;
+  font-size: 4rem;
+  color: #4a046a;
+}
