@@ -1,0 +1,14 @@
+.banner-blog {
+  background: url(../../../../public/images/banner.blog.jpg);
+  background-size: cover;
+  height: 20rem;
+  padding: 0rem;
+  margin-top: 6.5rem;
+  margin-bottom: 6rem;
+}
+
+.banner-text {
+  text-align: right;
+  padding-top: 8rem;
+  padding-right: 3rem;
+}
