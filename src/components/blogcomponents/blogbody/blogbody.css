@@ -154,3 +154,151 @@ img {
 .last-blog h4 {
   font-size: 1rem;
 }
+@media screen and (min-width: 1240px) and (max-width: 1320px) {
+  .container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    max-width: 1320px;
+  }
+}
+@media screen and (min-width: 920px) and (max-width: 1240px) {
+  .container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    max-width: 1240px;
+  }
+}
+
+@media screen and (min-width: 580px) and (max-width: 920px) {
+  .container {
+    width: var(--container-width-md);
+    margin: 0 auto;
+    max-width: 920px;
+  }
+  .f-photo {
+    width: 83%;
+    height: 34rem;
+  }
+
+  .left-blog h3 {
+    padding-top: 70px;
+    margin-top: 1rem;
+  }
+
+  .left-p {
+    width: 25rem;
+  }
+
+  .s-photo {
+    height: 16rem;
+    width: 86%;
+  }
+
+  .third-photo {
+    width: 80%;
+  }
+
+  .four-photo {
+    width: 57%;
+    height: 9rem;
+  }
+
+  .right-blog p {
+    width: 118%;
+  }
+
+  .fif-photo {
+    width: 86%;
+    height: 13rem;
+  }
+
+  .last-blog p {
+    width: 71%;
+  }
+
+  .six-photo {
+    width: 100%;
+  }
+
+  .right-blog button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 580px) {
+  .container {
+    width: var(--container-width-sm);
+    margin: 0 auto;
+    max-width: 580px;
+  }
+
+  .f-photo {
+    width: 89%;
+    height: 19rem;
+  }
+
+  .left-blog h3 {
+    font-size: 1.3rem;
+  }
+
+  .left-p {
+    width: 15rem;
+  }
+
+  .s-photo {
+    height: 10rem;
+  }
+  .third-photo {
+    width: 91%;
+    height: 10rem;
+  }
+
+  .four-photo {
+    width: 61%;
+    height: 6rem;
+  }
+
+  .right-blog p {
+    width: 86%;
+  }
+
+  .fif-photo {
+    height: 9rem;
+  }
+
+  .last-blog {
+    flex-direction: column;
+  }
+  .last-blog img {
+    height: 17rem;
+    width: 62%;
+  }
+
+  .b-col1 {
+    margin-left: 5rem;
+    width: 100%;
+  }
+
+  .b-col2 {
+    margin-left: 5rem;
+    width: 100%;
+  }
+
+  .b-col3 {
+    margin-left: 5rem;
+    width: 100%;
+  }
+
+  .right-blog button {
+    display: block;
+  }
+
+  .post button {
+    cursor: pointer;
+    margin-bottom: 3rem;
+  }
+
+  .hide {
+    display: none;
+  }
+}
