@@ -10,3 +10,49 @@
   font-size: 4rem;
   color: #4a046a;
 }
+@media screen and (min-width: 1240px) and (max-width: 1320px) {
+  .container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    max-width: 1320px;
+  }
+}
+@media screen and (min-width: 920px) and (max-width: 1240px) {
+  .container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    max-width: 1240px;
+  }
+}
+
+@media screen and (min-width: 580px) and (max-width: 920px) {
+  .container {
+    width: var(--container-width-md);
+    margin: 0 auto;
+    max-width: 920px;
+  }
+
+  .first-tab h4 {
+    margin-right: 5rem;
+  }
+
+  .header-wishlist h2 {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 580px) {
+  .container {
+    width: var(--container-width-sm);
+    margin: 0 auto;
+    max-width: 580px;
+  }
+
+  .banner {
+    height: 15rem;
+  }
+
+  .banner h1 {
+    padding-top: 6rem;
+  }
+}

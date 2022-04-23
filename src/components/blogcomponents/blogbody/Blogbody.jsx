@@ -3,11 +3,11 @@ import "./blogbody.css";
 export default function Blogbody() {
   return (
     <div>
-      <div class="body-blog container section">
-        <div class="left-blog">
-          <img class="f-photo" src="images/blogpage1.jpg" alt="" />
+      <div className="body-blog container section">
+        <div className="left-blog">
+          <img className="f-photo" src="images/blogpage1.jpg" alt="" />
           <h3>WHY SHOULD WE CARE OUR SKIN</h3>
-          <p class="left-p">
+          <p className="left-p">
             A daily skincare routine is vital to keep your skin hydrated and
             protected from outside influences and looking younger. But its just
             as important to maintain your routine. So don’t go overboard with
@@ -16,18 +16,18 @@ export default function Blogbody() {
             skin: Cleanse, Moisturize and Protect, so you can achieve a more
             healthy and glowing skin!
           </p>
-          <img class="s-photo" src="images/blog1.jpg" alt="" />
+          <img className="s-photo" src="images/blog1.jpg" alt="" />
           <h3>GAME CHANGERS FOR EVERY DAY</h3>
-          <p class="left-p">
+          <p className="left-p">
             You may suspect you have dry, oily, or sensitive skin, but do you
             really know your skin type? Knowing your true skin type can help the
             next time you’re in the cosmetics aisle. In fact, using the wrong
             products — or even popularized Internet hacks — for your skin type
             could worsen acne, dryness, or other skin problems.
           </p>
-          <img class="third-photo" src="images/blog2.jpg" alt="" />
+          <img className="third-photo" src="images/blog2.jpg" alt="" />
           <h3>HOW IMPORTANT IS MOISTURE FOR WOMEN</h3>
-          <p class="left-p">
+          <p className="left-p">
             You may suspect you have dry, oily, or sensitive skin, but do you
             really know your skin type? Knowing your true skin type can help the
             next time you’re in the cosmetics aisle. In fact, using the wrong
@@ -36,11 +36,11 @@ export default function Blogbody() {
           </p>
         </div>
 
-        <div class="right-blog">
-          <img class="four-photo" src="images/blogpage2.jpg" alt="" />
-          <div class="post">
+        <div className="right-blog">
+          <img className="four-photo" src="images/blogpage2.jpg" alt="" />
+          <div className="post">
             <h4>About author</h4>
-            <p class="content">
+            <p className="content">
               No one piece of makeup creates more of a statement than red
               lipstick.. Consider Revlon's Super Lustrous Love Is On Lipstick
               the LBD of the lipstick world—chic, bold, and always appropriate.
@@ -52,10 +52,10 @@ export default function Blogbody() {
             {/* <button onclick="readMore(this)">Read More</button> */}
           </div>
 
-          <img class="fif-photo" src="images/blogpage1.jpg" alt="" />
-          <div class="post">
+          <img className="fif-photo" src="images/blogpage1.jpg" alt="" />
+          <div className="post">
             <h5>WHY SHOULD WE CARE OUR SKIN</h5>
-            <p class="content">
+            <p className="content">
               A daily skincare routine is vital to keep your skin hydrated and
               protected from outside influences and looking younger. But it’s
               just as important to maintain your routine. So don’t go overboard
@@ -66,10 +66,10 @@ export default function Blogbody() {
             </p>
             {/* <button onclick="readMore(this)">Read More</button> */}
           </div>
-          <img class="six-photo" src="images/blog1.jpg" alt="" />
-          <div class="post">
+          <img className="six-photo" src="images/blog1.jpg" alt="" />
+          <div className="post">
             <h5>GAME CHANGERS FOR EVERY DAY</h5>
-            <p class="content">
+            <p className="content">
               {" "}
               You may suspect you have dry, oily, or sensitive skin, but do you
               really know your skin type?Knowing your true skin type can help
@@ -80,8 +80,8 @@ export default function Blogbody() {
             {/* <button onclick="readMore(this)">Read More</button> */}
           </div>
 
-          <h3 class="cat">CATEGORIES</h3>
-          <p class="cat-p">
+          <h3 className="cat">CATEGORIES</h3>
+          <p className="cat-p">
             Cosmetic
             <br />
             Foundation
@@ -92,8 +92,8 @@ export default function Blogbody() {
           </p>
         </div>
       </div>
-      <div class="last-blog container section">
-        <div class="b-col1">
+      <div className="last-blog container section">
+        <div className="b-col1">
           <img src="images/blogpage3.jpg" alt="" />
           <h4>The Cosmetic World</h4>
           <p>
@@ -103,7 +103,7 @@ export default function Blogbody() {
             synthetic.
           </p>
         </div>
-        <div class="b-col2">
+        <div className="b-col2">
           <img src="images/blogpage4.jpg" alt="" />
           <h4>Did you know these lipstick fact</h4>
           <p>
@@ -112,7 +112,7 @@ export default function Blogbody() {
             are also lip balms, to add both color and hydration.
           </p>
         </div>
-        <div class="b-col3">
+        <div className="b-col3">
           <img src="images/blogpage5.jpg" alt="" />
           <h4>The Cosmetic World</h4>
           <p>

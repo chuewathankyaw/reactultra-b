@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 export default function Head() {
   return (
-    <section class="nav-section">
+    <section className="nav-section">
       <nav>
-        <div class="nav_container">
-          <ul class="nav_menu">
-            <li class="active">
+        <div className="nav_container">
+          <ul className="nav_menu">
+            <li className="active">
               <Link to="/">Home</Link>
             </li>
 
@@ -16,22 +16,22 @@ export default function Head() {
               <div className="submenu">
                 <ul>
                   <li>
-                    <a href="/ForUltra-B/skin-care.html">SkinCare</a>
+                    <Link to="/skincare">SkinCare</Link>
                   </li>
                   <li>
-                    <a href="/ForUltra-B/makeup-page.html">Make-Up</a>
+                    <Link to="/makeup">Make-up</Link>
                   </li>
                   <li>
-                    <a href="/ForUltra-B/Lipstick.html">Lip Stick</a>
+                    <Link to="/lipstick">Lip Stick</Link>
                   </li>
                   <li>
-                    <a href="/ForUltra-B/hair.html">Hair$Body</a>
+                    <Link to="/hairbody">Hair & body</Link>
                   </li>
                 </ul>
               </div>
             </li>
             <li>
-              <Link to="/Bset-Seller">Bset-Seller</Link>
+              <Link to="/bestSeller">Best-Seller</Link>
             </li>
             <li>
               <img src="images/01.png" alt="" />
@@ -46,56 +46,56 @@ export default function Head() {
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
-          <div class="logo1">
+          <div className="logo1">
             <img src="images/01.png" alt="" />
           </div>
-          <div class="btn">
+          <div className="btn">
             <button id="search">
-              <i class="uil uil-search"></i>
+              <i className="uil uil-search"></i>
             </button>
-            <a class="login-nav" href="./signin-signup.html" id="login">
-              <i class="uil uil-user"></i>
+            <a className="login-nav" href="./signin-signup.html" id="login">
+              <i className="uil uil-user"></i>
             </a>
             <button id="shopping">
-              <i class="uil uil-shopping-bag"></i>
+              <i className="uil uil-shopping-bag"></i>
             </button>
           </div>
-          <div class="btn2">
+          <div className="btn2">
             <button id="open-menu-btn">
-              <i class="uil uil-bars"></i>
+              <i className="uil uil-bars"></i>
             </button>
             <button id="close-menu-btn">
-              <i class="uil uil-multiply"></i>
+              <i className="uil uil-multiply"></i>
             </button>
           </div>
         </div>
-        <div id="searchbox" class="search_warp hide">
-          <div class="search_box">
-            <input type="text" class="input" placeholder="Search..." />
-            <div class="btn ">
-              <i class="uil uil-search"></i>
+        <div id="searchbox" className="search_warp hide">
+          <div className="search_box">
+            <input type="text" className="input" placeholder="Search..." />
+            <div className="btn ">
+              <i className="uil uil-search"></i>
             </div>
           </div>
         </div>
 
         {/* -- cart htoo lay --
-        <div class="cart1">
-          <h2 class="section-header">CART</h2>
-          <div class="cart-row">
-            <span class="cart-item cart-header cart-column">ITEM</span>
-            <span class="cart-price cart-header cart-column">PRICE</span>
-            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        <div className="cart1">
+          <h2 className="section-header">CART</h2>
+          <div className="cart-row">
+            <span className="cart-item cart-header cart-column">ITEM</span>
+            <span className="cart-price cart-header cart-column">PRICE</span>
+            <span className="cart-quantity cart-header cart-column">QUANTITY</span>
           </div>
-          <div class="cart-items"></div>
-          <div class="cart-total">
-            <strong class="cart-total-title">Total</strong>
-            <span class="cart-total-price">$0</span>
+          <div className="cart-items"></div>
+          <div className="cart-total">
+            <strong className="cart-total-title">Total</strong>
+            <span className="cart-total-price">$0</span>
           </div>
-          <button class="btn1 btn-primary1 btn-purchase" type="button">
+          <button className="btn1 btn-primary1 btn-purchase" type="button">
             PURCHASE
           </button>
           <button id="close-cart">
-            <i class="uil uil-multiply"></i>
+            <i className="uil uil-multiply"></i>
           </button>
         </div> */}
       </nav>
