@@ -1,0 +1,165 @@
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.producthome {
+  width: 100%;
+  height: 25rem;
+  background-color: transparent !important;
+  position: relative;
+}
+.producthome .producthome-brand {
+  /* margin-top: 1rem !important; */
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.producthome .producthome-img {
+  width: 62% !important;
+  height: 180px;
+  margin: auto;
+  transition: all 1s;
+}
+.producthome .producthome-img:hover {
+  transform: perspective(1000px) translateZ(150px);
+}
+.producthome-info {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.producthome-info h4 {
+  /* padding: 1rem 1rem 1rem 0rem; */
+  font-size: 1rem;
+  color: #088178;
+}
+.producthome-info h5 {
+  font-size: 1rem;
+}
+.star {
+  /* margin-top: 1rem; */
+  padding: 0.3rem 0.5rem;
+  color: var(--star-fill);
+  text-align: center;
+  font-size: 1rem;
+}
+
+.producthome-wish {
+  position: absolute;
+  top: 20px;
+  right: 28px;
+
+  z-index: 1;
+  /* right: 30px; */
+  text-align: left;
+  padding-top: 0;
+}
+.producthome-wish .fa {
+  color: #088178;
+  font-size: 30px;
+
+  transition: all 0.4s;
+}
+.producthome-wish .fa:hover {
+  color: #ff7007;
+}
+.fill-heart {
+  color: #ff7007 !important;
+}
+
+.carthome {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+
+  color: #088178;
+  border: 1px solid #cce7d0;
+  position: absolute;
+  bottom: 150px;
+  right: 23px;
+  transition: all 0.4s;
+}
+.carthome:hover {
+  background-color: #a8132c;
+  color: azure;
+}
+.righthome {
+  position: absolute;
+  bottom: 15px;
+  right: 0px;
+}
+.tophomehome {
+  position: absolute;
+  top: 0px;
+  right: -4px;
+}
+.wrapperhome .iconhome .tooltip {
+  font-size: 11px;
+  /* line-height: 3px; */
+  border: 1px solid transparent;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 25px;
+  background-color: orange;
+  padding: 2px 8px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.01);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s cubic-bezier(0.6, -0.55, 0.265, 1.55);
+}
+.wrapperhome .iconhome .tooltip.tophome::before {
+  content: " ";
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  background: #87cac5;
+  bottom: -7px;
+  left: 54%;
+  transform: translateX(-50%) rotate(45deg);
+  /* z-index: -2; */
+}
+
+.wrapperhome .iconhome .tooltip.righthome::before {
+  content: " ";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: orange;
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  z-index: 1;
+}
+
+.wrapperhome .iconhome:hover .tooltip.righthome {
+  bottom: 120px;
+  right: 4px;
+  background-color: orange;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.wrapperhome .iconhome:hover .tooltip.tophome {
+  /* bottom: 50px; */
+  top: -8px;
+  right: 14px;
+  background-color: #87cac5;
+  color: #a8132c;
+  opacity: 1;
+  pointer-events: auto;
+}
+.producthome {
+  transition: all 0.5s;
+}
+.producthome:hover {
+  transform: translateY(-6px);
+}
+/* chue css */
