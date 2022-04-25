@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../../components/footer/Footer";
 import Head from "../../../components/head/Head";
 import Chanellipstick from "../../../components/lipstickCompo/Chanellipstick";
 import Foundationlipstick from "../../../components/lipstickCompo/Foundationlipstick";
@@ -15,6 +16,7 @@ export default function Lipstick() {
       <Chanellipstick />
       <Lipstickbanner2 />
       <Lorellipstick />
+      <Footer />
     </>
   );
 }

@@ -1,13 +1,26 @@
 import "./head.css";
 import { Link } from "react-router-dom";
+import React, { useState } from "react";
+
+window.addEventListener("scroll", () => {
+  document
+    .querySelector("nav")
+    .classList.toggle("window-scroll", window.scrollY > 0);
+});
 
 export default function Head() {
+  const [MobileMenu, setMobileMenu] = useState(false);
+  const [show, setSearch] = useState(false);
+  const [show1, setCart] = useState(false);
   return (
     <section className="nav-section">
       <nav>
         <div className="nav_container">
-          <ul className="nav_menu">
-            <li className="active">
+          <ul
+            className={MobileMenu ? "nav-links-MobileMenu" : "link "}
+            onClick={() => setMobileMenu(false)}
+          >
+            <li>
               <Link to="/">Home</Link>
             </li>
 
@@ -16,22 +29,22 @@ export default function Head() {
               <div className="submenu">
                 <ul>
                   <li>
-                    <Link to="/skincare">SkinCare</Link>
+                    <a href="/ForUltra-B/skin-care.html">SkinCare</a>
                   </li>
                   <li>
-                    <Link to="/makeup">Make-up</Link>
+                    <a href="/ForUltra-B/makeup-page.html">Make-Up</a>
                   </li>
                   <li>
-                    <Link to="/lipstick">Lip Stick</Link>
+                    <a href="/ForUltra-B/Lipstick.html">Lip Stick</a>
                   </li>
                   <li>
-                    <Link to="/hairandbody">Hair & body</Link>
+                    <a href="/ForUltra-B/hair.html">Hair$Body</a>
                   </li>
                 </ul>
               </div>
             </li>
             <li>
-              <Link to="/bestseller">Best-Seller</Link>
+              <Link to="/BsetSeller">Bset-Seller</Link>
             </li>
             <li>
               <img src="images/01.png" alt="" />
@@ -50,56 +63,63 @@ export default function Head() {
             <img src="images/01.png" alt="" />
           </div>
           <div className="btn">
-            <button id="search">
-              <i className="uil uil-search"></i>
+            <button id="search" onClick={() => setSearch(!show)}>
+              <i class="uil uil-search"></i>
             </button>
-            {/* <a className="login-nav" link id="login"> */}
-            <Link to="/login" className="login-nav" id="login">
-              <i className="uil uil-user "></i>
-            </Link>
-
-            <button id="shopping">
-              <i className="uil uil-shopping-bag"></i>
+            <a class="login-nav" href="./signin-signup.html" id="login">
+              <i class="uil uil-user"></i>
+            </a>
+            <button id="shopping" onClick={() => setCart(!show1)}>
+              <i class="uil uil-shopping-bag"></i>
             </button>
           </div>
           <div className="btn2">
-            <button id="open-menu-btn">
-              <i className="uil uil-bars"></i>
-            </button>
-            <button id="close-menu-btn">
-              <i className="uil uil-multiply"></i>
+            <button
+              className="toggle"
+              onClick={() => setMobileMenu(!MobileMenu)}
+            >
+              {MobileMenu ? (
+                <i className="uil uil-multiply"></i>
+              ) : (
+                <i className="uil uil-bars"></i>
+              )}
             </button>
           </div>
         </div>
-        <div id="searchbox" className="search_warp hide">
-          <div className="search_box">
-            <input type="text" className="input" placeholder="Search..." />
-            <div className="btn ">
-              <i className="uil uil-search"></i>
+        {show ? (
+          <div id="searchbox" className="search_warp hide">
+            <div class="search_box">
+              <input type="text" className="input" placeholder="Search..." />
+              <div className="btn ">
+                <i class="uil uil-search"></i>
+              </div>
             </div>
           </div>
-        </div>
-
-        {/* -- cart htoo lay --
-        <div className="cart1">
-          <h2 className="section-header">CART</h2>
-          <div className="cart-row">
-            <span className="cart-item cart-header cart-column">ITEM</span>
-            <span className="cart-price cart-header cart-column">PRICE</span>
-            <span className="cart-quantity cart-header cart-column">QUANTITY</span>
+        ) : null}
+        {/* -- cart htoo lay -- */}
+        {show1 ? (
+          <div className="cart1">
+            <h2 className="section-header">CART</h2>
+            <div className="cart-row">
+              <span className="cart-item cart-header cart-column">ITEM</span>
+              <span className="cart-price cart-header cart-column">PRICE</span>
+              <span className="cart-quantity cart-header cart-column">
+                QUANTITY
+              </span>
+            </div>
+            <div className="cart-items"></div>
+            <div className="cart-total">
+              <strong className="cart-total-title">Total</strong>
+              <span className="cart-total-price">$0</span>
+            </div>
+            <button class="btn1 btn-primary1 btn-purchase" type="button">
+              PURCHASE
+            </button>
+            <button id="close-cart" onClick={() => setCart(!show1)}>
+              <i class="uil uil-multiply"></i>
+            </button>
           </div>
-          <div className="cart-items"></div>
-          <div className="cart-total">
-            <strong className="cart-total-title">Total</strong>
-            <span className="cart-total-price">$0</span>
-          </div>
-          <button className="btn1 btn-primary1 btn-purchase" type="button">
-            PURCHASE
-          </button>
-          <button id="close-cart">
-            <i className="uil uil-multiply"></i>
-          </button>
-        </div> */}
+        ) : null}
       </nav>
     </section>
   );

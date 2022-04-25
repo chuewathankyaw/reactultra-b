@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../../components/footer/Footer";
 import Head from "../../../components/head/Head";
 import FoundationArea from "../../../components/skincareCompo/Foundationskin";
 
@@ -18,6 +19,7 @@ export default function Skincare() {
       <Somebymiskin />
       <Skinbanner2 />
       <Innifreeskin />
+      <Footer />
     </>
   );
 }
