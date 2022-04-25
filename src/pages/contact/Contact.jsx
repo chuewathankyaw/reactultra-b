@@ -1,5 +1,6 @@
 import Contactbanner from "../../components/contactcomponents/Contactbanner";
 import Contactbody from "../../components/contactcomponents/Contactbody";
+import Footer from "../../components/footer/Footer";
 import Head from "../../components/head/Head";
 
 export default function Contact() {
@@ -8,6 +9,7 @@ export default function Contact() {
       <Head />
       <Contactbanner />
       <Contactbody />
+      <Footer />
     </>
   );
 }

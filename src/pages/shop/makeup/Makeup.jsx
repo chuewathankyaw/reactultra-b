@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../../components/footer/Footer";
 import Head from "../../../components/head/Head";
 import EyeShadowmakeup from "../../../components/makeupCompo/Eyeshadowmakeup";
 import Foundationmakeup from "../../../components/makeupCompo/Foundationmakeup";
@@ -15,6 +16,7 @@ export default function Makeup() {
       <EyeShadowmakeup />
       <Makeupbanner2 />
       <Twowaymakeup />
+      <Footer />
     </>
   );
 }

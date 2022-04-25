@@ -5,7 +5,7 @@ import Homebrand from "../../components/homecomponents/Homebrand";
 import Homenewarrival from "../../components/homecomponents/Homenewarrival";
 import { Homeproduct } from "../../components/homecomponents/Homeproduct";
 import Slider from "../../components/homecomponents/slidercomponents/Slider";
-
+import Footer from "../../components/footer/Footer";
 export default function Home() {
   return (
     <>
@@ -16,6 +16,7 @@ export default function Home() {
       <Homenewarrival />
       <Homeaboutus />
       <Homebrand />
+      <Footer />
     </>
   );
 }

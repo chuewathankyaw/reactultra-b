@@ -6,7 +6,7 @@ import Foundationhair from "../../../components/hairCompo/Foundationhair";
 import Hairbanner2 from "../../../components/hairCompo/Hairbanner2";
 import Showerhair from "../../../components/hairCompo/Showerhair";
 import Head from "../../../components/head/Head";
-
+import Footer from "../../../components/footer/Footer";
 export const HairandBody = () => {
   return (
     <>
@@ -16,6 +16,7 @@ export const HairandBody = () => {
       <Bodylotionhair />
       <Hairbanner2 />
       <Showerhair />
+      <Footer />
     </>
   );
 };
