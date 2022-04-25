@@ -25,13 +25,13 @@ export default function Head() {
                     <Link to="/lipstick">Lip Stick</Link>
                   </li>
                   <li>
-                    <Link to="/hairbody">Hair & body</Link>
+                    <Link to="/hairandbody">Hair & body</Link>
                   </li>
                 </ul>
               </div>
             </li>
             <li>
-              <Link to="/bestSeller">Best-Seller</Link>
+              <Link to="/bestseller">Best-Seller</Link>
             </li>
             <li>
               <img src="images/01.png" alt="" />
@@ -53,9 +53,11 @@ export default function Head() {
             <button id="search">
               <i className="uil uil-search"></i>
             </button>
-            <a className="login-nav" href="./signin-signup.html" id="login">
-              <i className="uil uil-user"></i>
-            </a>
+            {/* <a className="login-nav" link id="login"> */}
+            <Link to="/login" className="login-nav" id="login">
+              <i className="uil uil-user "></i>
+            </Link>
+
             <button id="shopping">
               <i className="uil uil-shopping-bag"></i>
             </button>

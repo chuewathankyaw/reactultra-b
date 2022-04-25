@@ -2,7 +2,7 @@ import "./blogbody.css";
 
 export default function Blogbody() {
   return (
-    <div>
+    <div className="BlogPage">
       <div className="body-blog container section">
         <div className="left-blog">
           <img className="f-photo" src="images/blogpage1.jpg" alt="" />
