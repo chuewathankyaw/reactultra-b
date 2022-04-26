@@ -49,35 +49,33 @@ export default function Blogbody() {
               goofproof, we asked makeup artist Vincent Oquendo to share his
               essentials, plus tips to ensure you get that red just right.
             </p>
-            {/* <button onclick="readMore(this)">Read More</button> */}
           </div>
-
-          <img className="fif-photo" src="images/blogpage1.jpg" alt="" />
-          <div className="post">
-            <h5>WHY SHOULD WE CARE OUR SKIN</h5>
-            <p className="content">
-              A daily skincare routine is vital to keep your skin hydrated and
-              protected from outside influences and looking younger. But it’s
-              just as important to maintain your routine. So don’t go overboard
-              with 10-steps routines, just do what is necessary for your own
-              skin. Tropy Beauty prepared a simple tailored 3-step routine for
-              black skin: Cleanse, Moisturize and Protect, so you can achieve a
-              more healthy and glowing skin!
-            </p>
-            {/* <button onclick="readMore(this)">Read More</button> */}
-          </div>
-          <img className="six-photo" src="images/blog1.jpg" alt="" />
-          <div className="post">
-            <h5>GAME CHANGERS FOR EVERY DAY</h5>
-            <p className="content">
-              {" "}
-              You may suspect you have dry, oily, or sensitive skin, but do you
-              really know your skin type?Knowing your true skin type can help
-              the next time you’re in the cosmetics aisle. In fact, using the
-              wrong products — or even popularized Internet hacks — for your
-              skin type could worsen acne, dryness, or other skin problems.
-            </p>
-            {/* <button onclick="readMore(this)">Read More</button> */}
+          <div className="none">
+            <img className="fif-photo" src="images/blogpage1.jpg" alt="" />
+            <div className="post">
+              <h5>WHY SHOULD WE CARE OUR SKIN</h5>
+              <p className="content">
+                A daily skincare routine is vital to keep your skin hydrated and
+                protected from outside influences and looking younger. But it’s
+                just as important to maintain your routine. So don’t go
+                overboard with 10-steps routines, just do what is necessary for
+                your own skin. Tropy Beauty prepared a simple tailored 3-step
+                routine for black skin: Cleanse, Moisturize and Protect, so you
+                can achieve a more healthy and glowing skin!
+              </p>
+            </div>
+            <img className="six-photo" src="images/blog1.jpg" alt="" />
+            <div className="post">
+              <h5>GAME CHANGERS FOR EVERY DAY</h5>
+              <p className="content">
+                You may suspect you have dry, oily, or sensitive skin, but do
+                you really know your skin type?Knowing your true skin type can
+                help the next time you’re in the cosmetics aisle. In fact, using
+                the wrong products — or even popularized Internet hacks — for
+                your skin type could worsen acne, dryness, or other skin
+                problems.
+              </p>
+            </div>
           </div>
 
           <h3 className="cat">CATEGORIES</h3>

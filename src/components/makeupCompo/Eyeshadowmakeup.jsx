@@ -19,7 +19,7 @@ class EyeShadowmakeup extends Component {
     const x = this.state.divcontainer;
     return (
       <section className="foundation-container container">
-        <h1 className="foundation-title capital">Eye Shadow</h1>
+        <h3 className="foundation-title capital">Eye Shadow</h3>
         <div className="foundation-product-container container">
           <article className="product">
             <h4 className="product-brand">Maybelline</h4>
@@ -438,7 +438,7 @@ class EyeShadowmakeup extends Component {
         )}
 
         {/* See more Button */}
-        
+
         <div
           className={"seemorebtn " + (x ? "faq_minus" : "")}
           onClick={this.Handlechange}

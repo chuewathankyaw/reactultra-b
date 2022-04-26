@@ -12,6 +12,7 @@
   padding-top: 8rem;
   padding-right: 3rem;
 }
+
 @media screen and (min-width: 1240px) and (max-width: 1320px) {
   .container {
     width: var(--container-width-lg);

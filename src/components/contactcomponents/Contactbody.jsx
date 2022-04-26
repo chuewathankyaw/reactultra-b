@@ -27,7 +27,7 @@ class Contactbody extends Component {
         </section>
 
         <section id="form-details" className="container">
-          <form action="">
+          <form className="contectform">
             <h2>ASK US ANYTHING</h2>
             <p>
               At vero eos et accusanus et iusto odio dignissimos ducimus qui

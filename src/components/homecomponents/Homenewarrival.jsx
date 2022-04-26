@@ -6,7 +6,7 @@ export default function Homenewarrival() {
   return (
     <section class="promotion_container container ">
       <div class="promotion_title">
-        <h1 class="capital">New Arrival </h1>
+        <h3 class="capital">New Arrival </h3>
         <h5 class="second-text">
           Explore the latest products in our collection!
         </h5>
