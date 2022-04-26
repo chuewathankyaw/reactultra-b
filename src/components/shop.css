@@ -471,15 +471,12 @@ img {
     margin-left: 25rem;
     font-size: 3rem;
   }
-
-  .best-detail img {
-    margin-left: -5rem;
-  }
 }
 @media screen and (min-width: 360px) and (max-width: 580px) {
   .container {
     width: var(--container-width-sm);
     margin: 0 auto;
+    margin-bottom: 4rem;
   }
   nav {
     background: transparent;

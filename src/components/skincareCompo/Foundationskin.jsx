@@ -21,7 +21,7 @@ class FoundationArea extends Component {
     const x = this.state.divcontainer;
     return (
       <section className="foundation-container container">
-        <h1 className="foundation-title capital">Fraijour</h1>
+        <h3 className="foundation-title capital">Fraijour</h3>
         <div className="foundation-product-container container">
           <article className="product">
             <h4 className="product-brand">Maybelline</h4>

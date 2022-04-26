@@ -28,7 +28,7 @@
   height: 100%;
 }
 
-.content {
+.slidecontent {
   position: absolute;
   top: 15rem;
   left: 8rem;
@@ -40,10 +40,10 @@
   animation-fill-mode: forwards;
   /* visibility: hidden; */
 }
-.content h2 {
+.slidecontent h2 {
   font-size: 3rem;
 }
-.content p {
+.slidecontent p {
   font-family: "Yesteryear", sans-serif;
   font-size: 2rem;
 }
@@ -60,12 +60,23 @@
 }
 
 @media screen and (max-width: 600px) {
-  .content {
+  .slidecontent {
+    margin-left: -3rem;
     width: 80%;
+  }
+  .slidecontent h2 {
+    font-size: 1.8rem;
+  }
+  .slidecontent p {
+    font-family: "Yesteryear", sans-serif;
+    font-size: 1.3rem;
+  }
+  .slide img {
+    height: 30rem;
   }
 }
 
-.content > * {
+.slidecontent > * {
   color: #000;
   margin-bottom: 1rem;
 }
@@ -75,7 +86,7 @@
   transform: translateX(0);
 }
 
-.current .content {
+.current .slidecontent {
   opacity: 1;
 }
 
@@ -89,7 +100,7 @@
   cursor: pointer;
   position: absolute;
   top: 40%;
-  z-index: 999;
+  z-index: 9;
 }
 
 .arrow:hover {

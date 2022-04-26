@@ -47,7 +47,12 @@
     margin: 0 auto;
     max-width: 580px;
   }
-
+  .bannerContainer {
+    height: 20rem;
+  }
+  .bannerContainer h1 {
+    padding-top: 7rem;
+  }
   .banner {
     height: 15rem;
   }

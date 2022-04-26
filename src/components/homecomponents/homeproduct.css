@@ -7,7 +7,7 @@
   margin-bottom: 1rem;
 }
 .topMar {
-  margin-top: 9rem;
+  margin-top: 11rem;
 }
 img {
   width: 100%;
@@ -32,6 +32,7 @@ img {
 .promotion_title {
   text-align: center;
   margin-bottom: 5rem;
+  margin-top: 0rem;
 }
 .promotion_title h2 {
   margin-bottom: 0.5rem;
@@ -312,8 +313,8 @@ button.white-1:hover {
     background-size: 65rem;
   }
   .about-img {
-    width: 123%;
-    height: 50%;
+    width: 100%;
+    height: 74%;
   }
   .f-col {
     height: 24rem;
@@ -362,6 +363,9 @@ button.white-1:hover {
     height: 40vh;
     width: 45%;
   }
+  .promotion_title {
+    margin-top: 8rem;
+  }
 }
 
 /* =====Media Queries(tablets)===== */
@@ -369,9 +373,16 @@ button.white-1:hover {
   .container {
     width: var(--container-width-md);
     margin: 0 auto;
+    margin-bottom: 0rem !important;
+  }
+  .topMar {
+    margin-top: 9rem !important;
   }
   .promotion_title {
     margin-bottom: 4.3rem;
+  }
+  .ava-brand {
+    padding-top: 0rem;
   }
   .producthome-wish .fa {
     font-size: 22px;
@@ -455,7 +466,7 @@ button.white-1:hover {
   }
   .about-img {
     margin-left: -2rem;
-    width: 95%;
+    width: 100%;
   }
   .f-col p {
     width: 100%;
@@ -571,6 +582,10 @@ button.white-1:hover {
     margin: 0 auto;
   }
 
+  .topMar {
+    margin-top: 7rem !important;
+  }
+
   html,
   body {
     width: 100%;
@@ -579,7 +594,11 @@ button.white-1:hover {
     padding: 0;
     overflow-x: hidden;
   }
-
+  .promotion_title {
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 0rem !important;
+  }
   .swiper-horizontal > .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
