@@ -5,7 +5,7 @@ export default function Homebrand() {
   return (
     <section className="ava-brand container">
       <div className="ava-title">
-        <h1 className="capital">available brand</h1>
+        <h3 className="capital">available brand</h3>
         <h5 className="second-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </h5>

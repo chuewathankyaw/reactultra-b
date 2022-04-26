@@ -4,7 +4,7 @@ export default function Homeblog() {
   return (
     <section id="our-blog" className="container">
       <div className="blog-title">
-        <h1 className="capital">Our Blog</h1>
+        <h3 className="capital">Our Blog</h3>
         <h5 className="second-text">Lorem ipsum dolor sit amet consectetur.</h5>
       </div>
       <div className="blog">

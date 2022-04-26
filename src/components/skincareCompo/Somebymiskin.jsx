@@ -17,7 +17,7 @@ class Somebymiskin extends Component {
     const x = this.state.divcontainer;
     return (
       <section className="foundation-container container">
-        <h1 className="foundation-title capital">some by mi</h1>
+        <h3 className="foundation-title capital">some by mi</h3>
         <div className="foundation-product-container container">
           <article className="product">
             <h4 className="product-brand">Maybelline</h4>

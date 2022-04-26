@@ -29,22 +29,22 @@ export default function Head() {
               <div className="submenu">
                 <ul>
                   <li>
-                    <a href="/ForUltra-B/skin-care.html">SkinCare</a>
+                    <Link to="/skincare">Skincare</Link>
                   </li>
                   <li>
-                    <a href="/ForUltra-B/makeup-page.html">Make-Up</a>
+                    <Link to="/makeup">Make-up</Link>
                   </li>
                   <li>
-                    <a href="/ForUltra-B/Lipstick.html">Lip Stick</a>
+                    <Link to="/lipstick">Lip Stick</Link>
                   </li>
                   <li>
-                    <a href="/ForUltra-B/hair.html">Hair$Body</a>
+                    <Link to="/hairandbody">Hair & body</Link>
                   </li>
                 </ul>
               </div>
             </li>
             <li>
-              <Link to="/BsetSeller">Bset-Seller</Link>
+              <Link to="/bestseller">Best-Seller</Link>
             </li>
             <li>
               <img src="images/01.png" alt="" />

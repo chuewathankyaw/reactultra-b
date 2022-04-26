@@ -1,16 +1,42 @@
-img {
+#blog-page {
+  padding-top: 0rem;
   width: 100%;
-  height: 100%;
-  display: block;
+}
+
+#blog-page img {
+  transition: 1s;
+}
+
+#blog-page img:hover {
+  transform: scale(0.8);
+  z-index: 2;
+}
+
+#blog-page p {
+  transition: var(--trasition);
+}
+
+#blog-page p:hover {
+  color: var(--alter-box);
+}
+
+.banner-blog {
+  background: url(../../../../public/images/banner.blog.jpg);
+  background-size: cover;
+  height: 20rem;
+  padding: 0rem;
+  margin-top: 6.5rem;
+}
+
+.banner-text {
+  text-align: right;
+  padding-top: 8rem;
+  padding-right: 3rem;
 }
 
 .body-blog {
   display: grid;
   grid-template-columns: 70% 30%;
-}
-
-.BlogPage p {
-  font-family: "Open Sans", sans-serif;
 }
 
 .f-photo {
@@ -42,8 +68,8 @@ img {
   height: 15rem;
 }
 .six-photo {
-  width: 74%;
-  height: 8rem;
+  width: 60%;
+  height: 10rem;
 }
 
 .right-blog p {
@@ -72,7 +98,7 @@ img {
 }
 
 .last-blog img {
-  height: 20rem;
+  height: 27rem;
   width: 100%;
 }
 
@@ -85,6 +111,11 @@ img {
 .last-blog h4 {
   font-size: 1rem;
 }
+
+/* .right-blog button {
+  display: none;
+} */
+
 @media screen and (min-width: 1240px) and (max-width: 1320px) {
   .container {
     width: var(--container-width-lg);
@@ -98,6 +129,24 @@ img {
     margin: 0 auto;
     max-width: 1240px;
   }
+  .f-photo {
+    height: 40rem;
+  }
+  .left-p {
+    width: 25rem;
+  }
+  .four-photo {
+    width: 58%;
+    height: 10rem;
+  }
+  .fif-photo {
+    width: 69%;
+    height: 13rem;
+  }
+  .six-photo {
+    width: 73%;
+    height: 7rem;
+  }
 }
 
 @media screen and (min-width: 580px) and (max-width: 920px) {
@@ -106,27 +155,53 @@ img {
     margin: 0 auto;
     max-width: 920px;
   }
+
+  /* .btn2 button {
+        display: inline-block;
+        font-size: 1.8rem;
+        color: var(--color-black);
+        cursor: pointer;
+        margin-top: 1.5rem;
+    }
+
+    .btn2 button#close-menu-btn {
+        display: none;
+    }
+
+    .logo1 {
+        width: 100px;
+        height: 100px;
+        display: block;
+        object-fit: cover;
+        margin-left: 5%;
+    }
+
+    .logo1 img {
+        width: 90%;
+        height: auto;
+    } */
+
   .f-photo {
-    width: 83%;
-    height: 34rem;
+    width: 77%;
+    height: 25rem;
   }
 
   .left-blog h3 {
-    padding-top: 70px;
+    padding-top: 0px;
     margin-top: 1rem;
   }
 
   .left-p {
-    width: 25rem;
+    width: 18rem;
   }
-
   .s-photo {
-    height: 16rem;
-    width: 86%;
+    height: 14rem;
+    width: 79%;
   }
 
   .third-photo {
-    width: 80%;
+    height: 14rem;
+    width: 79%;
   }
 
   .four-photo {
@@ -154,6 +229,13 @@ img {
   .right-blog button {
     display: none;
   }
+  .right-blog p {
+    width: 99%;
+  }
+  .last-blog img {
+    height: 18rem;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 360px) and (max-width: 580px) {
@@ -164,37 +246,57 @@ img {
   }
 
   .f-photo {
-    width: 89%;
-    height: 19rem;
+    width: 100%;
+    height: 25rem;
+    padding: 0 2rem;
   }
 
   .left-blog h3 {
     font-size: 1.3rem;
+    padding: 0 2rem;
+    margin-top: 1rem;
   }
 
   .left-p {
-    width: 15rem;
+    width: 100%;
+    padding: 0 2rem;
   }
 
   .s-photo {
-    height: 10rem;
+    width: 100%;
+    height: 14rem;
+    padding: 0 2rem;
   }
   .third-photo {
-    width: 91%;
-    height: 10rem;
+    width: 100%;
+    height: 14rem;
+    padding: 0 2rem;
   }
 
   .four-photo {
-    width: 61%;
-    height: 6rem;
+    width: 100%;
+    height: 17rem;
+    padding: 0 2rem;
   }
 
   .right-blog p {
-    width: 86%;
+    width: 100%;
+    padding: 0 2rem;
+  }
+  .right-blog h4 {
+    padding: 0 2rem;
+    margin-top: 1rem;
+  }
+  .right-blog h3 {
+    padding: 0 2rem;
+    margin-top: 1rem;
   }
 
-  .fif-photo {
-    height: 9rem;
+  .none {
+    display: none;
+  }
+  .body-blog {
+    grid-template-columns: 100%;
   }
 
   .last-blog {
@@ -202,21 +304,26 @@ img {
   }
   .last-blog img {
     height: 17rem;
-    width: 62%;
+    width: 100%;
   }
-
+  .last-blog h4 {
+    margin-top: 1rem;
+  }
+  .last-blog p {
+    width: 100%;
+  }
   .b-col1 {
-    margin-left: 5rem;
+    padding: 0 2rem;
     width: 100%;
   }
 
   .b-col2 {
-    margin-left: 5rem;
+    padding: 0 2rem;
     width: 100%;
   }
 
   .b-col3 {
-    margin-left: 5rem;
+    padding: 0 2rem;
     width: 100%;
   }
 
@@ -227,9 +334,5 @@ img {
   .post button {
     cursor: pointer;
     margin-bottom: 3rem;
-  }
-
-  .hide {
-    display: none;
   }
 }

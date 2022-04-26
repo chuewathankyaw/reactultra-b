@@ -33,6 +33,7 @@
     width: var(--container-width-lg);
     margin: 0 auto;
     max-width: 1320px;
+    margin-bottom: 4rem;
   }
 }
 @media screen and (min-width: 920px) and (max-width: 1240px) {
@@ -40,6 +41,7 @@
     width: var(--container-width-lg);
     margin: 0 auto;
     max-width: 1240px;
+    margin-bottom: 4rem;
   }
 }
 
@@ -48,6 +50,7 @@
     width: var(--container-width-md);
     margin: 0 auto;
     max-width: 920px;
+    margin-bottom: 4rem;
   }
 
   .first-tab h4 {
