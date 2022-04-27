@@ -66,9 +66,9 @@ export default function Head() {
             <button id="search" onClick={() => setSearch(!show)}>
               <i class="uil uil-search"></i>
             </button>
-            <a class="login-nav" href="./signin-signup.html" id="login">
-              <i class="uil uil-user"></i>
-            </a>
+            <Link to="/login" className="login-nav" id="login">
+              <i className="uil uil-user "></i>
+            </Link>
             <button id="shopping" onClick={() => setCart(!show1)}>
               <i class="uil uil-shopping-bag"></i>
             </button>
