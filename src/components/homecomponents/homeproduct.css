@@ -385,7 +385,7 @@ button.white-1:hover {
     padding-top: 0rem;
   }
   .producthome-wish .fa {
-    font-size: 22px;
+    font-size: 22px !important;
   }
   .producthome .producthome-brand {
     margin-bottom: 1.2rem;
@@ -423,8 +423,8 @@ button.white-1:hover {
   }
   .producthome-wish {
     position: absolute;
-    top: 377px;
-    left: 20px;
+    top: 377px !important;
+    left: 20px !important;
   }
 
   .wrapperhome .iconhome:hover .tooltip.righthome {
@@ -616,7 +616,7 @@ button.white-1:hover {
   .producthome-wish {
     position: absolute;
     top: 362px;
-    left: 19px !important;
+    left: 19px;
 
     z-index: 1;
   }

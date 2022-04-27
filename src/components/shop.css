@@ -306,11 +306,11 @@ img {
   background-color: #a8132c;
   color: azure;
 }
-.right {
+/* .right {
   position: absolute;
   bottom: 15px;
   right: 0px;
-}
+} */
 .top {
   position: absolute;
   top: 300px;
@@ -422,7 +422,7 @@ img {
   }
 
   .wrapper .icon:hover .tooltip.right {
-    bottom: 15px;
+    top: 15px;
     right: 48px;
   }
 
@@ -471,12 +471,15 @@ img {
     margin-left: 25rem;
     font-size: 3rem;
   }
+
+  .best-detail img {
+    margin-left: -5rem;
+  }
 }
 @media screen and (min-width: 360px) and (max-width: 580px) {
   .container {
     width: var(--container-width-sm);
     margin: 0 auto;
-    margin-bottom: 4rem;
   }
   nav {
     background: transparent;
@@ -542,12 +545,12 @@ img {
   }
   .wrapper .icon:hover .tooltip.top {
     width: fit-content;
-    bottom: 307px;
-    left: 43px;
+    top: 55px;
+    left: 46px;
   }
 
   .wrapper .icon:hover .tooltip.right {
-    bottom: 307px;
+    bottom: 310px;
     right: 48px;
   }
 

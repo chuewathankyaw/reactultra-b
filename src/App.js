@@ -13,7 +13,7 @@ import { HairandBody } from "./pages/shop/hairandbody/HairandBody";
 import Lipstick from "./pages/shop/lipstick/Lipstick";
 import Makeup from "./pages/shop/makeup/Makeup";
 import Skincare from "./pages/shop/skincare/Skincare";
-import Login from "./pages/loginlogout/Login";
+import LoginandRegister from "./pages/loginlogout/LoginandRegister";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
         <Route path="/makeup" element={<Makeup />} />
         <Route path="/skincare" element={<Skincare />} />
         <Route path="/bestseller" element={<Bestseller />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<LoginandRegister />} />
       </Routes>
     </div>
   );
