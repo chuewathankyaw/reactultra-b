@@ -14,7 +14,7 @@ import Lipstick from "./pages/shop/lipstick/Lipstick";
 import Makeup from "./pages/shop/makeup/Makeup";
 import Skincare from "./pages/shop/skincare/Skincare";
 import LoginandRegister from "./pages/loginlogout/LoginandRegister";
-
+import Single from "./pages/single/Single";
 function App() {
   return (
     <div className="App">
@@ -29,6 +29,7 @@ function App() {
         <Route path="/skincare" element={<Skincare />} />
         <Route path="/bestseller" element={<Bestseller />} />
         <Route path="/login" element={<LoginandRegister />} />
+        <Route path="/single" element={<Single />} />
       </Routes>
     </div>
   );
