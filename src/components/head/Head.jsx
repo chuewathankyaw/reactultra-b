@@ -100,21 +100,7 @@ export default function Head() {
         {show1 ? (
           <div className="cart1">
             <h2 className="section-header">CART</h2>
-            <div className="cart-row">
-              <span className="cart-item cart-header cart-column">ITEM</span>
-              <span className="cart-price cart-header cart-column">PRICE</span>
-              <span className="cart-quantity cart-header cart-column">
-                QUANTITY
-              </span>
-            </div>
-            <div className="cart-items"></div>
-            <div className="cart-total">
-              <strong className="cart-total-title">Total</strong>
-              <span className="cart-total-price">$0</span>
-            </div>
-            <button class="btn1 btn-primary1 btn-purchase" type="button">
-              PURCHASE
-            </button>
+
             <button id="close-cart" onClick={() => setCart(!show1)}>
               <i class="uil uil-multiply"></i>
             </button>
