@@ -306,11 +306,11 @@ img {
   background-color: #a8132c;
   color: azure;
 }
-/* .right {
+.right {
   position: absolute;
   bottom: 15px;
   right: 0px;
-} */
+}
 .top {
   position: absolute;
   top: 300px;

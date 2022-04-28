@@ -69,8 +69,15 @@ export default function Head() {
             <Link to="/login" className="login-nav" id="login">
               <i className="uil uil-user "></i>
             </Link>
-            <button id="shopping" onClick={() => setCart(!show1)}>
-              <i class="uil uil-shopping-bag"></i>
+            <button
+              id="shopping"
+              className="shoppingcart"
+              onClick={() => setCart(!show1)}
+            >
+              <span>
+                <i class="uil uil-shopping-bag"></i>
+              </span>
+              <span>0</span>
             </button>
           </div>
           <div className="btn2">
@@ -100,7 +107,7 @@ export default function Head() {
         {show1 ? (
           <div className="cart1">
             <h2 className="section-header">CART</h2>
-            <div className="cart-row">
+            {/* <div className="cart-row">
               <span className="cart-item cart-header cart-column">ITEM</span>
               <span className="cart-price cart-header cart-column">PRICE</span>
               <span className="cart-quantity cart-header cart-column">
@@ -111,12 +118,15 @@ export default function Head() {
             <div className="cart-total">
               <strong className="cart-total-title">Total</strong>
               <span className="cart-total-price">$0</span>
+            </div> */}
+            <div className="cart-footer">
+              <h3>
+                Total : $<span className="cart-total">0</span>
+              </h3>
+              <button className="clear-cart banner-btn">clear cart</button>
             </div>
-            <button class="btn1 btn-primary1 btn-purchase" type="button">
-              PURCHASE
-            </button>
             <button id="close-cart" onClick={() => setCart(!show1)}>
-              <i class="uil uil-multiply"></i>
+              <i className="uil uil-multiply"></i>
             </button>
           </div>
         ) : null}

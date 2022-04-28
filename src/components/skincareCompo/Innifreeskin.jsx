@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../shop.css";
-import { skin_innifree } from "../shopdata";
+import { shop, skin_innifree } from "../shopdata2";
 
 class Innifreeskin extends Component {
   constructor(props) {
@@ -9,7 +9,7 @@ class Innifreeskin extends Component {
       divcontainer: false,
     };
   }
-  Handlechange = (e) => {
+  Handlechange = () => {
     this.setState((state) => ({
       divcontainer: !state.divcontainer,
     }));
@@ -21,83 +21,91 @@ class Innifreeskin extends Component {
       <section className="foundation-container container">
         <h3 className="foundation-title capital">Innifree</h3>
         <div className="foundation-product-container container">
-          {skin_innifree
-            .filter((user) => user.id < 5)
-            .map((user) => (
-              <article className="product">
-                <h4 className="product-brand">{user.title}</h4>
-                <div className="product-img">
-                  <img src={user.image} alt="" />
-                </div>
-                <div className="star">
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                </div>
+          {shop.map((item) =>
+            item.id == 3
+              ? item.skin_innifree
+                  .filter((user) => user.id < 5)
+                  .map((sub) => (
+                    <article className="product">
+                      <h4 className="product-brand">{sub.title}</h4>
+                      <div className="product-img">
+                        <img src={sub.product_image} alt="" />
+                      </div>
+                      <div className="star">
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                      </div>
 
-                <div className="product-info">
-                  <h5>{user.name}</h5>
-                  <h4>{user.price}</h4>
-                </div>
-                <div className="wrapper">
-                  <div className="icon">
-                    <div className="tooltip right">Add to Cart</div>
-                    <a href="#" className="cart">
-                      <i className="fas fa-shopping-cart"></i>
-                    </a>
-                  </div>
+                      <div className="product-info">
+                        <h5>{sub.name}</h5>
+                        <h4>{sub.price}</h4>
+                      </div>
+                      <div className="wrapper">
+                        <div className="icon">
+                          <div className="tooltip right">Add to Cart</div>
+                          <a href="#" className="cart">
+                            <i className="fas fa-shopping-cart"></i>
+                          </a>
+                        </div>
 
-                  <div className="icon">
-                    <div className="tooltip top">Favoriate</div>
-                    <a href="#" className="product-wish">
-                      <i className="fa fa-heart "></i>
-                    </a>
-                  </div>
-                </div>
-              </article>
-            ))}
+                        <div className="icon">
+                          <div className="tooltip top">Favoriate</div>
+                          <a href="#" className="product-wish">
+                            <i className="fa fa-heart "></i>
+                          </a>
+                        </div>
+                      </div>
+                    </article>
+                  ))
+              : ""
+          )}
         </div>
         {x && (
           <div className="foundation-product-container container topgap">
-            {skin_innifree
-              .filter((user) => user.id >= 5)
-              .map((user) => (
-                <article className="product">
-                  <h4 className="product-brand">{user.title}</h4>
-                  <div className="product-img">
-                    <img src={user.image} alt="" />
-                  </div>
-                  <div className="star">
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                  </div>
+            {shop.map((item) =>
+              item.id == 3
+                ? item.skin_innifree
+                    .filter((user) => user.id >= 5)
+                    .map((sub) => (
+                      <article className="product">
+                        <h4 className="product-brand">{sub.title}</h4>
+                        <div className="product-img">
+                          <img src={sub.product_image} alt="" />
+                        </div>
+                        <div className="star">
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                        </div>
 
-                  <div className="product-info">
-                    <h5>{user.name}</h5>
-                    <h4>{user.price}</h4>
-                  </div>
-                  <div className="wrapper">
-                    <div className="icon">
-                      <div className="tooltip right">Add to Cart</div>
-                      <a href="#" className="cart">
-                        <i className="fas fa-shopping-cart"></i>
-                      </a>
-                    </div>
+                        <div className="product-info">
+                          <h5>{sub.name}</h5>
+                          <h4>{sub.price}</h4>
+                        </div>
+                        <div className="wrapper">
+                          <div className="icon">
+                            <div className="tooltip right">Add to Cart</div>
+                            <a href="#" className="cart">
+                              <i className="fas fa-shopping-cart"></i>
+                            </a>
+                          </div>
 
-                    <div className="icon">
-                      <div className="tooltip top">Favoriate</div>
-                      <a href="#" className="product-wish">
-                        <i className="fa fa-heart "></i>
-                      </a>
-                    </div>
-                  </div>
-                </article>
-              ))}
+                          <div className="icon">
+                            <div className="tooltip top">Favoriate</div>
+                            <a href="#" className="product-wish">
+                              <i className="fa fa-heart "></i>
+                            </a>
+                          </div>
+                        </div>
+                      </article>
+                    ))
+                : ""
+            )}
           </div>
         )}
 
