@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../../../components/footer/Footer";
 import Head from "../../../components/head/Head";
+import Particle from "../../../components/particle/Particle";
 import FoundationArea from "../../../components/skincareCompo/Foundationskin";
 
 import Innifreeskin from "../../../components/skincareCompo/Innifreeskin";
@@ -15,9 +16,13 @@ export default function Skincare() {
     <>
       <Head />
       <Skinbanner />
+      <Particle />
       <FoundationArea />
+      <Particle />
       <Somebymiskin />
+      <Particle />
       <Skinbanner2 />
+      <Particle />
       <Innifreeskin />
       <Footer />
     </>
