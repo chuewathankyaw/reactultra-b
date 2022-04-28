@@ -151,7 +151,7 @@ nav {
 }
 .btn i,
 .login-nav i {
-  font-size: 20px;
+  font-size: 23px;
   gap: 2rem;
   font-weight: bold;
   color: #465b52;
@@ -249,7 +249,7 @@ nav {
   position: fixed;
   top: 0;
   right: 0;
-  width: 400px;
+  width: 600px;
   min-height: 100vh;
   padding: 20px;
   background: #f8d9fe;
@@ -391,6 +391,41 @@ nav {
   font-size: 1.1em;
 }
 
+.cart-footer {
+  margin-top: 2rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+.cart-footer h3 {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.banner-btn {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  background: #f09d51;
+  color: #000;
+  border: 1px solid #f09d51;
+  transition: var(--Transition);
+  cursor: pointer;
+}
+.banner-btn:hover {
+  background: transparent;
+  color: #f09d51;
+}
+
+.shoppingcart span:nth-child(2) {
+  padding: 0 6px;
+  background-color: #9a5ecf;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  position: relative;
+  top: -15px;
+}
 @media screen and (min-width: 1240px) and (max-width: 1320px) {
   .container {
     width: var(--container-width-lg);
