@@ -10,11 +10,7 @@
     max-height: 100%;
     object-fit: fill;
 } */
-img {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
+
 .capital {
   text-transform: uppercase;
 }
@@ -217,7 +213,8 @@ img {
   /* background: var(--product-card);
   background-repeat: repeat-y;
   background-size: 50% auto; */
-  background: linear-gradient(#f1d7f5 50%, #fff -50%);
+  background: linear-gradient(transparent 62%, rgb(238, 242, 250) -50%);
+  border-radius: 10px;
 
   position: relative;
 }
@@ -232,6 +229,7 @@ img {
   height: 180px;
   margin: auto;
   transition: all 1s;
+
   margin-bottom: 1rem;
 }
 .product .product-img:hover {

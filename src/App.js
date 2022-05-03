@@ -15,6 +15,7 @@ import Makeup from "./pages/shop/makeup/Makeup";
 import Skincare from "./pages/shop/skincare/Skincare";
 import LoginandRegister from "./pages/loginlogout/LoginandRegister";
 import Single from "./pages/single/Single";
+import Detailfile from "./components/single/Detailfile";
 function App() {
   return (
     <div className="App">
@@ -30,6 +31,7 @@ function App() {
         <Route path="/bestseller" element={<Bestseller />} />
         <Route path="/login" element={<LoginandRegister />} />
         <Route path="/single" element={<Single />} />
+        <Route path="/detailfile/:id" element={<Detailfile />} />
       </Routes>
     </div>
   );
