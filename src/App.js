@@ -16,6 +16,7 @@ import Skincare from "./pages/shop/skincare/Skincare";
 import LoginandRegister from "./pages/loginlogout/LoginandRegister";
 import Single from "./pages/single/Single";
 import Detailfile from "./components/single/Detailfile";
+import { shop } from "./components/shopdata2";
 function App() {
   return (
     <div className="App">

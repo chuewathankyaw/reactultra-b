@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link, useRoutes } from "react-router-dom";
+import Skincare from "../../pages/shop/skincare/Skincare";
 import "../shop.css";
 import { shop, skin_innifree } from "../shopdata2";
 
@@ -29,9 +30,9 @@ class Innifreeskin extends Component {
                   .filter((user) => user.id < 5)
                   .map((sub) => (
                     <Link
-                      to={`
-                     /detailfile/${sub.id}
-                    `}
+                      to={` 
+                      /detailfile/${sub.id}
+                      `}
                     >
                       <article className="product">
                         <h4 className="product-brand">{sub.title}</h4>
