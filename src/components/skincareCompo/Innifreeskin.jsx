@@ -29,7 +29,7 @@ class Innifreeskin extends Component {
               ? item.skin_innifree
                   .filter((user) => user.id < 5)
                   .map((user) => (
-                    <Link to={`/detailfile/${user.id}`}>
+                    <Link to={`/detailskininnifree/${user.id}`}>
                       <article className="product">
                         <h4 className="product-brand">{user.title}</h4>
                         <div className="product-img">
@@ -75,7 +75,7 @@ class Innifreeskin extends Component {
                 ? item.skin_innifree
                     .filter((user) => user.id >= 5)
                     .map((user) => (
-                      <Link to={`/detailfile/${user.id}`}>
+                      <Link to={`/detailskininnifree/${user.id}`}>
                         <article className="product">
                           <h4 className="product-brand">{user.title}</h4>
                           <div className="product-img">

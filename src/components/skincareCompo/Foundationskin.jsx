@@ -31,7 +31,7 @@ class FoundationArea extends Component {
               ? item.skin_fraijour
                   .filter((user) => user.id < 9)
                   .map((user) => (
-                    <Link to={`/detailfile/${user.id}`}>
+                    <Link to={`/detailskinfoundation/${user.id}`}>
                       <article className="product" key={user.id}>
                         <h4 className="product-brand">{user.title}</h4>
                         <div className="product-img">
@@ -77,7 +77,7 @@ class FoundationArea extends Component {
                 ? item.skin_fraijour
                     .filter((user) => user.id >= 9)
                     .map((user) => (
-                      <Link to={`/detailfile/${user.id}`}>
+                      <Link to={`/detailskinfoundation/${user.id}`}>
                         <article className="product">
                           <h4 className="product-brand">{user.title}</h4>
                           <div className="product-img">

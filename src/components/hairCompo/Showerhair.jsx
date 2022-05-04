@@ -27,7 +27,7 @@ class Showerhair extends Component {
               ? item.hair_showergel
                   .filter((user) => user.id < 5)
                   .map((user) => (
-                    <Link to={`/detailfile/${user.id}`}>
+                    <Link to={`/detailhairshower/${user.id}`}>
                       <article className="product">
                         <h4 className="product-brand">{user.title}</h4>
                         <div className="product-img">
@@ -74,7 +74,7 @@ class Showerhair extends Component {
                 ? item.hair_showergel
                     .filter((user) => user.id >= 5)
                     .map((user) => (
-                      <Link to={`/detailfile/${user.id}`}>
+                      <Link to={`/detailhairshower/${user.id}`}>
                         <article className="product">
                           <h4 className="product-brand">{user.title}</h4>
                           <div className="product-img">

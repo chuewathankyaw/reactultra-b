@@ -27,7 +27,7 @@ class Foundationhair extends Component {
               ? item.hair_themixbysu
                   .filter((user) => user.id < 9)
                   .map((user) => (
-                    <Link to={`/detailfile/${user.id}`}>
+                    <Link to={`/detailhairfoundation/${user.id}`}>
                       <article className="product">
                         <h4 className="product-brand">{user.title}</h4>
                         <div className="product-img">
@@ -74,7 +74,7 @@ class Foundationhair extends Component {
                 ? item.hair_themixbysu
                     .filter((user) => user.id >= 9)
                     .map((user) => (
-                      <Link to={`/detailfile/${user.id}`}>
+                      <Link to={`/detailhairfoundation/${user.id}`}>
                         <article className="product">
                           <h4 className="product-brand">{user.title}</h4>
                           <div className="product-img">

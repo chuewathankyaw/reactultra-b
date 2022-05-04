@@ -27,7 +27,7 @@ class Lorellipstick extends Component {
               ? item.lipstick_loreal
                   .filter((user) => user.id < 5)
                   .map((user) => (
-                    <Link to={`/detailfile/${user.id}`}>
+                    <Link to={`/detailliploreal/${user.id}`}>
                       <article className="product">
                         <h4 className="product-brand">{user.title}</h4>
                         <div className="product-img">
@@ -74,7 +74,7 @@ class Lorellipstick extends Component {
                 ? item.lipstick_loreal
                     .filter((user) => user.id >= 5)
                     .map((user) => (
-                      <Link to={`/detailfile/${user.id}`}>
+                      <Link to={`/detailliploreal/${user.id}`}>
                         <article className="product">
                           <h4 className="product-brand">{user.title}</h4>
                           <div className="product-img">
