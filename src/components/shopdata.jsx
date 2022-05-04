@@ -227,6 +227,7 @@ export const skin_somebymi = [
     image: "./images/Makeup/mk12.png",
   },
 ];
+
 export const skin_innifree = [
   {
     id: 1,
