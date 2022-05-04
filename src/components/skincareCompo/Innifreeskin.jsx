@@ -28,16 +28,12 @@ class Innifreeskin extends Component {
             item.id == 3
               ? item.skin_innifree
                   .filter((user) => user.id < 5)
-                  .map((sub) => (
-                    <Link
-                      to={` 
-                      /detailfile/${sub.id}
-                      `}
-                    >
+                  .map((user) => (
+                    <Link to={`/detailskininnifree/${user.id}`}>
                       <article className="product">
-                        <h4 className="product-brand">{sub.title}</h4>
+                        <h4 className="product-brand">{user.title}</h4>
                         <div className="product-img">
-                          <img src={sub.product_image} alt="" />
+                          <img src={user.product_image} alt="" />
                         </div>
                         <div className="star">
                           <i className="fas fa-star"></i>
@@ -48,8 +44,8 @@ class Innifreeskin extends Component {
                         </div>
 
                         <div className="product-info">
-                          <h5>{sub.name}</h5>
-                          <h4>{sub.price}</h4>
+                          <h5>{user.name}</h5>
+                          <h4>{user.price}</h4>
                         </div>
                         <div className="wrapper">
                           <div className="icon">
@@ -78,16 +74,12 @@ class Innifreeskin extends Component {
               item.id == 3
                 ? item.skin_innifree
                     .filter((user) => user.id >= 5)
-                    .map((sub) => (
-                      <Link
-                        to={`
-                      /detailfile/${sub.id}
-                    `}
-                      >
+                    .map((user) => (
+                      <Link to={`/detailskininnifree/${user.id}`}>
                         <article className="product">
-                          <h4 className="product-brand">{sub.title}</h4>
+                          <h4 className="product-brand">{user.title}</h4>
                           <div className="product-img">
-                            <img src={sub.product_image} alt="" />
+                            <img src={user.product_image} alt="" />
                           </div>
                           <div className="star">
                             <i className="fas fa-star"></i>
@@ -98,8 +90,8 @@ class Innifreeskin extends Component {
                           </div>
 
                           <div className="product-info">
-                            <h5>{sub.name}</h5>
-                            <h4>{sub.price}</h4>
+                            <h5>{user.name}</h5>
+                            <h4>{user.price}</h4>
                           </div>
                           <div className="wrapper">
                             <div className="icon">
