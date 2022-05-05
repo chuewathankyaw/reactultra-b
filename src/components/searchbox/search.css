@@ -1,0 +1,30 @@
+.searchcontainer {
+  display: grid;
+  height: 6.5rem;
+  grid-template-columns: 20% 80%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: var(--nav-color);
+}
+#searchInput {
+  width: 70%;
+  height: 3rem;
+  padding-left: 1rem;
+  margin-top: 0rem;
+  font-size: 1.2rem;
+}
+.logo1s {
+  width: 30%;
+  margin-left: 5rem;
+  margin-top: -1.5rem;
+  animation: myani 2s infinite linear alternate;
+}
+@keyframes myani {
+  from {
+    transform: rotate(8deg);
+  }
+
+  to {
+    transform: rotate(-8deg);
+  }
+}
