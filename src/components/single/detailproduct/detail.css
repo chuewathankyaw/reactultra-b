@@ -27,7 +27,7 @@
 .details .box {
   max-width: 500px;
   min-width: 290px;
-  margin: 25px;
+  margin: 70px 25px 25px 25px;
 }
 .box .row {
   display: flex;

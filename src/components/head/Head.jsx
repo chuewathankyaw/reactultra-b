@@ -47,7 +47,7 @@ export default function Head() {
               <Link to="/bestseller">Best-Seller</Link>
             </li>
             <li>
-              <img src="images/01.png" alt="" />
+              <img src="../images/01.png" alt="" />
             </li>
             <li>
               <Link to="/blog">Blog</Link>

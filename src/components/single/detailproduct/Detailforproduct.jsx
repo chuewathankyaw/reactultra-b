@@ -7,6 +7,11 @@ const DetailForProduct = (props) => {
       <div className="details" key={props.product.id}>
         <div className="big-img">
           <img src={props.product.detail_image[0]} alt=" " />
+          <div className="thumb">
+            {props.product.detail_image.map((img) => (
+              <img src={img} alt="" />
+            ))}
+          </div>
         </div>
 
         <div className="box">
@@ -23,12 +28,7 @@ const DetailForProduct = (props) => {
           <p>{props.product.description}</p>
           <p>{props.product.content}</p>
 
-          <div className="thumb">
-            {props.product.detail_image.map((img) => (
-              <img src={img} alt="" />
-            ))}
-          </div>
-          <button className="cart">Add to cart</button>
+          <button className="cart2">Add to cart</button>
         </div>
       </div>
     </div>
