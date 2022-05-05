@@ -63,9 +63,9 @@ export default function Head() {
             <img src="images/01.png" alt="" />
           </div>
           <div className="btn">
-            <button id="search" onClick={() => setSearch(!show)}>
+            <Link to="/search" id="search" onClick={() => setSearch(!show)}>
               <i class="uil uil-search"></i>
-            </button>
+            </Link>
             <Link to="/login" className="login-nav" id="login">
               <i className="uil uil-user "></i>
             </Link>

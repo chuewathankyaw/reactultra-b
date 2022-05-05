@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="section-p1">
       <div className="infomation">
         <div className="col">
-          <img class="logo" src="images/01.png" alt="" />
+          <img class="logo" src="../images/01.png" alt="" />
           <p>
             Your originality is our inispiration. From full-on <br />{" "}
             maximalists to fresh-faced minimalists
