@@ -29,6 +29,7 @@ import DetailHairFoun from "./components/single/DetailHairFoun";
 import DetailHairLotion from "./components/single/DetailHairLotion";
 import DetailHairShower from "./components/single/DetailHairShower";
 import DetailBestseller from "./components/single/DetailBestseller";
+import Search from "./components/searchbox/Search";
 function App() {
   return (
     <div className="App">
@@ -44,6 +45,7 @@ function App() {
         <Route path="/bestseller" element={<Bestseller />} />
         <Route path="/login" element={<LoginandRegister />} />
         <Route path="/single" element={<Single />} />
+        <Route path="/search" element={<Search />} />
 
         <Route
           path="/detailskinfoundation/:id"
