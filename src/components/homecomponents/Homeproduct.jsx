@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./homeproduct.css";
 import Swiperproduct from "./SwiperProduct/Swiperproduct";
 
-export const Homeproduct = () => {
+export const Homeproduct = (props) => {
   return (
     <>
       <section className="promotion_container container topMar">

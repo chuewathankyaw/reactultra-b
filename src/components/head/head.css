@@ -1,3 +1,19 @@
+a {
+  text-decoration: none;
+  color: black;
+  margin-top: 1.7rem;
+}
+
+@keyframes myani {
+  from {
+    transform: rotate(8deg);
+  }
+
+  to {
+    transform: rotate(-8deg);
+  }
+}
+
 .link {
   display: flex;
   align-items: center;
@@ -246,12 +262,12 @@ nav {
 }
 
 .cart1 {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   right: 0;
-  width: 600px;
+  width: 100%;
   min-height: 100vh;
-  padding: 20px;
+  /* padding: 20px; */
   background: #f8d9fe;
   box-shadow: -2px 0 4px hsl(0, 4%, 15% / 10%);
   transition: 0.3s;
