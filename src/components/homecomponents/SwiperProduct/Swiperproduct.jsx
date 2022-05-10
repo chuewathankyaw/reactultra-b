@@ -241,6 +241,8 @@ const arrivaldata = [
 
 export default function Swiperproduct({ arrival }) {
   const PromotionSwiper = () => {
+   
+
     const [cart, setCart] = useState([]);
 
     const handleClick = (item) => {

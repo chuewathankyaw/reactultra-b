@@ -7,10 +7,10 @@ import { Homeproduct } from "../../components/homecomponents/Homeproduct";
 import Slider from "../../components/homecomponents/slidercomponents/Slider";
 import Footer from "../../components/footer/Footer";
 import Particle from "../../components/particle/Particle";
+
 export default function Home() {
   return (
     <>
-      <Head />
       <Slider />
       <Particle />
       <Homeproduct />

@@ -5,22 +5,21 @@ import Foundationhair from "../../../components/hairCompo/Foundationhair";
 
 import Hairbanner2 from "../../../components/hairCompo/Hairbanner2";
 import Showerhair from "../../../components/hairCompo/Showerhair";
-import Head from "../../../components/head/Head";
+
 import Footer from "../../../components/footer/Footer";
 import Particle from "../../../components/particle/Particle";
-export const HairandBody = () => {
+export const HairandBody = ({ shopdata, addToCart }) => {
   return (
     <>
-      <Head />
       <Hairbanner />
       <Particle />
-      <Foundationhair />
+      <Foundationhair products={shopdata} addToCart={addToCart} />
       <Particle />
-      <Bodylotionhair />
+      <Bodylotionhair products={shopdata} addToCart={addToCart} />
       <Particle />
       <Hairbanner2 />
       <Particle />
-      <Showerhair />
+      <Showerhair products={shopdata} addToCart={addToCart} />
       <Footer />
     </>
   );

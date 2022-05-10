@@ -8,19 +8,18 @@ import Lipstickbanner2 from "../../../components/lipstickCompo/Lipstickbanner2";
 import Lorellipstick from "../../../components/lipstickCompo/Lorellipstick";
 import Particle from "../../../components/particle/Particle";
 
-export default function Lipstick() {
+export default function Lipstick({ shopdata, addToCart }) {
   return (
     <>
-      <Head />
       <Lipstickbanner />
       <Particle />
-      <Foundationlipstick />
+      <Foundationlipstick products={shopdata} addToCart={addToCart} />
       <Particle />
-      <Chanellipstick />
+      <Chanellipstick products={shopdata} addToCart={addToCart} />
       <Particle />
       <Lipstickbanner2 />
       <Particle />
-      <Lorellipstick />
+      <Lorellipstick products={shopdata} addToCart={addToCart} />
       <Footer />
     </>
   );

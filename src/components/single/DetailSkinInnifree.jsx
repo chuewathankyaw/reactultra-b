@@ -5,20 +5,21 @@ import DetailForProduct from "./detailproduct/Detailforproduct";
 import Head from "../head/Head";
 import Footer from "../footer/Footer";
 
-export default function DetailSkinInnifree() {
+export default function DetailSkinInnifree({ shopdata }) {
   const productid = useParams();
-  console.log("prodcct id", productid.id);
+  console.log("prodcct id from skin innifee", productid.id);
 
   return (
     <>
-      <Head />
       <div>
-        {shop.map((item) =>
-          item.id === 3
+        {shopdata.map((item) =>
+          item.id == 3
             ? item.skin_innifree.map(
                 (user) =>
                   user.id == productid.id ? (
-                    <DetailForProduct key={user.id} product={user} />
+                    <div>
+                      <DetailForProduct key={user.id} product={user} />
+                    </div>
                   ) : (
                     " "
                   )

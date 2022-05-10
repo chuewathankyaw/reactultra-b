@@ -6,7 +6,7 @@ export const shop = [
         id: 1,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -24,7 +24,7 @@ export const shop = [
         id: 2,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "180000MMK",
+        price: "180000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -42,7 +42,7 @@ export const shop = [
         id: 3,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "240000MMK",
+        price: "240000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -60,7 +60,7 @@ export const shop = [
         id: 4,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "330000MMK",
+        price: "330000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -78,7 +78,7 @@ export const shop = [
         id: 5,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "190000MMK",
+        price: "190000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -96,7 +96,7 @@ export const shop = [
         id: 6,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -114,7 +114,7 @@ export const shop = [
         id: 7,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -132,7 +132,7 @@ export const shop = [
         id: 8,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -150,7 +150,7 @@ export const shop = [
         id: 9,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -168,7 +168,7 @@ export const shop = [
         id: 10,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "170000MMK",
+        price: "170000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -186,7 +186,7 @@ export const shop = [
         id: 11,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "430000MMK",
+        price: "430000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -204,7 +204,7 @@ export const shop = [
         id: 12,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "53000MMK",
+        price: "53000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -222,7 +222,7 @@ export const shop = [
         id: 13,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "230000MMK",
+        price: "230000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -240,7 +240,7 @@ export const shop = [
         id: 14,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "120000MMK",
+        price: "120000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -258,7 +258,7 @@ export const shop = [
         id: 15,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "110000MMK",
+        price: "110000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -276,7 +276,7 @@ export const shop = [
         id: 16,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "70000MMK",
+        price: "70000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -300,7 +300,7 @@ export const shop = [
         id: 1,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -318,7 +318,7 @@ export const shop = [
         id: 2,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "180000MMK",
+        price: "180000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -336,7 +336,7 @@ export const shop = [
         id: 3,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "240000MMK",
+        price: "240000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -354,7 +354,7 @@ export const shop = [
         id: 4,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "330000MMK",
+        price: "330000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -372,7 +372,7 @@ export const shop = [
         id: 5,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "190000MMK",
+        price: "190000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -390,7 +390,7 @@ export const shop = [
         id: 6,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -408,7 +408,7 @@ export const shop = [
         id: 7,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -426,7 +426,7 @@ export const shop = [
         id: 8,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -444,7 +444,7 @@ export const shop = [
         id: 9,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -462,7 +462,7 @@ export const shop = [
         id: 10,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "170000MMK",
+        price: "170000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -480,7 +480,7 @@ export const shop = [
         id: 11,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "430000MMK",
+        price: "430000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -498,7 +498,7 @@ export const shop = [
         id: 12,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "53000MMK",
+        price: "53000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -516,7 +516,7 @@ export const shop = [
         id: 13,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "230000MMK",
+        price: "230000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -534,7 +534,7 @@ export const shop = [
         id: 14,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "120000MMK",
+        price: "120000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -552,7 +552,7 @@ export const shop = [
         id: 15,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "110000MMK",
+        price: "110000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -570,7 +570,7 @@ export const shop = [
         id: 16,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "70000MMK",
+        price: "70000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -594,7 +594,7 @@ export const shop = [
         id: 1,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -612,7 +612,7 @@ export const shop = [
         id: 2,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "180000MMK",
+        price: "180000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -630,7 +630,7 @@ export const shop = [
         id: 3,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "240000MMK",
+        price: "240000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -648,7 +648,7 @@ export const shop = [
         id: 4,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "330000MMK",
+        price: "330000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -666,7 +666,7 @@ export const shop = [
         id: 5,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "190000MMK",
+        price: "190000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -684,7 +684,7 @@ export const shop = [
         id: 6,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -702,7 +702,7 @@ export const shop = [
         id: 7,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -720,7 +720,7 @@ export const shop = [
         id: 8,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -738,7 +738,7 @@ export const shop = [
         id: 9,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -756,7 +756,7 @@ export const shop = [
         id: 10,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "170000MMK",
+        price: "170000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -774,7 +774,7 @@ export const shop = [
         id: 11,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "430000MMK",
+        price: "430000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -792,7 +792,7 @@ export const shop = [
         id: 12,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "53000MMK",
+        price: "53000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -810,7 +810,7 @@ export const shop = [
         id: 13,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "230000MMK",
+        price: "230000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -828,7 +828,7 @@ export const shop = [
         id: 14,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "120000MMK",
+        price: "120000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -846,7 +846,7 @@ export const shop = [
         id: 15,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "110000MMK",
+        price: "110000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -864,7 +864,7 @@ export const shop = [
         id: 16,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "70000MMK",
+        price: "70000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -888,7 +888,7 @@ export const shop = [
         id: 1,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -906,7 +906,7 @@ export const shop = [
         id: 2,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "180000MMK",
+        price: "180000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -924,7 +924,7 @@ export const shop = [
         id: 3,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "240000MMK",
+        price: "240000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -942,7 +942,7 @@ export const shop = [
         id: 4,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "330000MMK",
+        price: "330000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -960,7 +960,7 @@ export const shop = [
         id: 5,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "190000MMK",
+        price: "190000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -978,7 +978,7 @@ export const shop = [
         id: 6,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -996,7 +996,7 @@ export const shop = [
         id: 7,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1014,7 +1014,7 @@ export const shop = [
         id: 8,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1032,7 +1032,7 @@ export const shop = [
         id: 9,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1050,7 +1050,7 @@ export const shop = [
         id: 10,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "170000MMK",
+        price: "170000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1068,7 +1068,7 @@ export const shop = [
         id: 11,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "430000MMK",
+        price: "430000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1086,7 +1086,7 @@ export const shop = [
         id: 12,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "53000MMK",
+        price: "53000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1104,7 +1104,7 @@ export const shop = [
         id: 13,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "230000MMK",
+        price: "230000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1122,7 +1122,7 @@ export const shop = [
         id: 14,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "120000MMK",
+        price: "120000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1140,7 +1140,7 @@ export const shop = [
         id: 15,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "110000MMK",
+        price: "110000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1158,7 +1158,7 @@ export const shop = [
         id: 16,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "70000MMK",
+        price: "70000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1182,7 +1182,7 @@ export const shop = [
         id: 1,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1200,7 +1200,7 @@ export const shop = [
         id: 2,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "180000MMK",
+        price: "180000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1218,7 +1218,7 @@ export const shop = [
         id: 3,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "240000MMK",
+        price: "240000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1236,7 +1236,7 @@ export const shop = [
         id: 4,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "330000MMK",
+        price: "330000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1254,7 +1254,7 @@ export const shop = [
         id: 5,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "190000MMK",
+        price: "190000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1272,7 +1272,7 @@ export const shop = [
         id: 6,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1290,7 +1290,7 @@ export const shop = [
         id: 7,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1308,7 +1308,7 @@ export const shop = [
         id: 8,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1326,7 +1326,7 @@ export const shop = [
         id: 9,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1344,7 +1344,7 @@ export const shop = [
         id: 10,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "170000MMK",
+        price: "170000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1362,7 +1362,7 @@ export const shop = [
         id: 11,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "430000MMK",
+        price: "430000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1380,7 +1380,7 @@ export const shop = [
         id: 12,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "53000MMK",
+        price: "53000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1398,7 +1398,7 @@ export const shop = [
         id: 13,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "230000MMK",
+        price: "230000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1416,7 +1416,7 @@ export const shop = [
         id: 14,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "120000MMK",
+        price: "120000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1434,7 +1434,7 @@ export const shop = [
         id: 15,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "110000MMK",
+        price: "110000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1452,7 +1452,7 @@ export const shop = [
         id: 16,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "70000MMK",
+        price: "70000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1476,7 +1476,7 @@ export const shop = [
         id: 1,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1494,7 +1494,7 @@ export const shop = [
         id: 2,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "180000MMK",
+        price: "180000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1512,7 +1512,7 @@ export const shop = [
         id: 3,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "240000MMK",
+        price: "240000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1530,7 +1530,7 @@ export const shop = [
         id: 4,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "330000MMK",
+        price: "330000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1548,7 +1548,7 @@ export const shop = [
         id: 5,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "190000MMK",
+        price: "190000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1566,7 +1566,7 @@ export const shop = [
         id: 6,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1584,7 +1584,7 @@ export const shop = [
         id: 7,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1602,7 +1602,7 @@ export const shop = [
         id: 8,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1620,7 +1620,7 @@ export const shop = [
         id: 9,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1638,7 +1638,7 @@ export const shop = [
         id: 10,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "170000MMK",
+        price: "170000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1656,7 +1656,7 @@ export const shop = [
         id: 11,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "430000MMK",
+        price: "430000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1674,7 +1674,7 @@ export const shop = [
         id: 12,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "53000MMK",
+        price: "53000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1692,7 +1692,7 @@ export const shop = [
         id: 13,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "230000MMK",
+        price: "230000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1710,7 +1710,7 @@ export const shop = [
         id: 14,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "120000MMK",
+        price: "120000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1728,7 +1728,7 @@ export const shop = [
         id: 15,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "110000MMK",
+        price: "110000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1746,7 +1746,7 @@ export const shop = [
         id: 16,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "70000MMK",
+        price: "70000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1770,7 +1770,7 @@ export const shop = [
         id: 1,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1788,7 +1788,7 @@ export const shop = [
         id: 2,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "180000MMK",
+        price: "180000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1806,7 +1806,7 @@ export const shop = [
         id: 3,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "240000MMK",
+        price: "240000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1824,7 +1824,7 @@ export const shop = [
         id: 4,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "330000MMK",
+        price: "330000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1842,7 +1842,7 @@ export const shop = [
         id: 5,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "190000MMK",
+        price: "190000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1860,7 +1860,7 @@ export const shop = [
         id: 6,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1878,7 +1878,7 @@ export const shop = [
         id: 7,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1896,7 +1896,7 @@ export const shop = [
         id: 8,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1914,7 +1914,7 @@ export const shop = [
         id: 9,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1932,7 +1932,7 @@ export const shop = [
         id: 10,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "170000MMK",
+        price: "170000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1950,7 +1950,7 @@ export const shop = [
         id: 11,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "430000MMK",
+        price: "430000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1968,7 +1968,7 @@ export const shop = [
         id: 12,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "53000MMK",
+        price: "53000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -1986,7 +1986,7 @@ export const shop = [
         id: 13,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "230000MMK",
+        price: "230000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2004,7 +2004,7 @@ export const shop = [
         id: 14,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "120000MMK",
+        price: "120000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2022,7 +2022,7 @@ export const shop = [
         id: 15,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "110000MMK",
+        price: "110000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2040,7 +2040,7 @@ export const shop = [
         id: 16,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "70000MMK",
+        price: "70000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2064,7 +2064,7 @@ export const shop = [
         id: 1,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2082,7 +2082,7 @@ export const shop = [
         id: 2,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "180000MMK",
+        price: "180000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2100,7 +2100,7 @@ export const shop = [
         id: 3,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "240000MMK",
+        price: "240000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2118,7 +2118,7 @@ export const shop = [
         id: 4,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "330000MMK",
+        price: "330000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2136,7 +2136,7 @@ export const shop = [
         id: 5,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "190000MMK",
+        price: "190000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2154,7 +2154,7 @@ export const shop = [
         id: 6,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2172,7 +2172,7 @@ export const shop = [
         id: 7,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2190,7 +2190,7 @@ export const shop = [
         id: 8,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2208,7 +2208,7 @@ export const shop = [
         id: 9,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2226,7 +2226,7 @@ export const shop = [
         id: 10,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "170000MMK",
+        price: "170000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2244,7 +2244,7 @@ export const shop = [
         id: 11,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "430000MMK",
+        price: "430000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2262,7 +2262,7 @@ export const shop = [
         id: 12,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "53000MMK",
+        price: "53000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2280,7 +2280,7 @@ export const shop = [
         id: 13,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "230000MMK",
+        price: "230000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2298,7 +2298,7 @@ export const shop = [
         id: 14,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "120000MMK",
+        price: "120000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2316,7 +2316,7 @@ export const shop = [
         id: 15,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "110000MMK",
+        price: "110000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2334,7 +2334,7 @@ export const shop = [
         id: 16,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "70000MMK",
+        price: "70000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2358,7 +2358,7 @@ export const shop = [
         id: 1,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2376,7 +2376,7 @@ export const shop = [
         id: 2,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "180000MMK",
+        price: "180000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2394,7 +2394,7 @@ export const shop = [
         id: 3,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "240000MMK",
+        price: "240000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2412,7 +2412,7 @@ export const shop = [
         id: 4,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "330000MMK",
+        price: "330000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2430,7 +2430,7 @@ export const shop = [
         id: 5,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "190000MMK",
+        price: "190000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2448,7 +2448,7 @@ export const shop = [
         id: 6,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2466,7 +2466,7 @@ export const shop = [
         id: 7,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2484,7 +2484,7 @@ export const shop = [
         id: 8,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2502,7 +2502,7 @@ export const shop = [
         id: 9,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2520,7 +2520,7 @@ export const shop = [
         id: 10,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "170000MMK",
+        price: "170000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2538,7 +2538,7 @@ export const shop = [
         id: 11,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "430000MMK",
+        price: "430000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2556,7 +2556,7 @@ export const shop = [
         id: 12,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "53000MMK",
+        price: "53000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2574,7 +2574,7 @@ export const shop = [
         id: 13,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "230000MMK",
+        price: "230000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2592,7 +2592,7 @@ export const shop = [
         id: 14,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "120000MMK",
+        price: "120000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2610,7 +2610,7 @@ export const shop = [
         id: 15,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "110000MMK",
+        price: "110000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2628,7 +2628,7 @@ export const shop = [
         id: 16,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "70000MMK",
+        price: "70000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2652,7 +2652,7 @@ export const shop = [
         id: 1,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2670,7 +2670,7 @@ export const shop = [
         id: 2,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "180000MMK",
+        price: "180000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2688,7 +2688,7 @@ export const shop = [
         id: 3,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "240000MMK",
+        price: "240000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2706,7 +2706,7 @@ export const shop = [
         id: 4,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "330000MMK",
+        price: "330000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2724,7 +2724,7 @@ export const shop = [
         id: 5,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "190000MMK",
+        price: "190000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2742,7 +2742,7 @@ export const shop = [
         id: 6,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2760,7 +2760,7 @@ export const shop = [
         id: 7,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2778,7 +2778,7 @@ export const shop = [
         id: 8,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2796,7 +2796,7 @@ export const shop = [
         id: 9,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2814,7 +2814,7 @@ export const shop = [
         id: 10,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "170000MMK",
+        price: "170000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2832,7 +2832,7 @@ export const shop = [
         id: 11,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "430000MMK",
+        price: "430000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2850,7 +2850,7 @@ export const shop = [
         id: 12,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "53000MMK",
+        price: "53000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2868,7 +2868,7 @@ export const shop = [
         id: 13,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "230000MMK",
+        price: "230000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2886,7 +2886,7 @@ export const shop = [
         id: 14,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "120000MMK",
+        price: "120000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2904,7 +2904,7 @@ export const shop = [
         id: 15,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "110000MMK",
+        price: "110000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2922,7 +2922,7 @@ export const shop = [
         id: 16,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "70000MMK",
+        price: "70000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2946,7 +2946,7 @@ export const shop = [
         id: 1,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2964,7 +2964,7 @@ export const shop = [
         id: 2,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "180000MMK",
+        price: "180000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -2982,7 +2982,7 @@ export const shop = [
         id: 3,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "240000MMK",
+        price: "240000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3000,7 +3000,7 @@ export const shop = [
         id: 4,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "330000MMK",
+        price: "330000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3018,7 +3018,7 @@ export const shop = [
         id: 5,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "190000MMK",
+        price: "190000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3036,7 +3036,7 @@ export const shop = [
         id: 6,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3054,7 +3054,7 @@ export const shop = [
         id: 7,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3072,7 +3072,7 @@ export const shop = [
         id: 8,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3090,7 +3090,7 @@ export const shop = [
         id: 9,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3108,7 +3108,7 @@ export const shop = [
         id: 10,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "170000MMK",
+        price: "170000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3126,7 +3126,7 @@ export const shop = [
         id: 11,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "430000MMK",
+        price: "430000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3144,7 +3144,7 @@ export const shop = [
         id: 12,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "53000MMK",
+        price: "53000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3162,7 +3162,7 @@ export const shop = [
         id: 13,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "230000MMK",
+        price: "230000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3180,7 +3180,7 @@ export const shop = [
         id: 14,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "120000MMK",
+        price: "120000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3198,7 +3198,7 @@ export const shop = [
         id: 15,
         title: "3CE",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "110000MMK",
+        price: "110000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3216,7 +3216,7 @@ export const shop = [
         id: 16,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "70000MMK",
+        price: "70000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3240,7 +3240,7 @@ export const shop = [
         id: 1,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3258,7 +3258,7 @@ export const shop = [
         id: 2,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "180000MMK",
+        price: "180000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3276,7 +3276,7 @@ export const shop = [
         id: 3,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "240000MMK",
+        price: "240000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3294,7 +3294,7 @@ export const shop = [
         id: 4,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "330000MMK",
+        price: "330000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3312,7 +3312,7 @@ export const shop = [
         id: 5,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "190000MMK",
+        price: "190000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3330,7 +3330,7 @@ export const shop = [
         id: 6,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3348,7 +3348,7 @@ export const shop = [
         id: 7,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3366,7 +3366,7 @@ export const shop = [
         id: 8,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3384,7 +3384,7 @@ export const shop = [
         id: 9,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "130000MMK",
+        price: "130000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3402,7 +3402,7 @@ export const shop = [
         id: 10,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "170000MMK",
+        price: "170000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3420,7 +3420,7 @@ export const shop = [
         id: 11,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "430000MMK",
+        price: "430000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3438,7 +3438,7 @@ export const shop = [
         id: 12,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "53000MMK",
+        price: "53000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3456,7 +3456,7 @@ export const shop = [
         id: 13,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "230000MMK",
+        price: "230000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3474,7 +3474,7 @@ export const shop = [
         id: 14,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "120000MMK",
+        price: "120000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3492,7 +3492,7 @@ export const shop = [
         id: 15,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "110000MMK",
+        price: "110000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -3510,7 +3510,7 @@ export const shop = [
         id: 16,
         title: "Maybelline",
         name: "Fraijour Original Herb Wormwood Calming Toner",
-        price: "70000MMK",
+        price: "70000",
         description: "UI/UX designing, html css tutorials",
         content:
           "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",

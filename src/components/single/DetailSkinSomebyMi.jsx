@@ -5,22 +5,23 @@ import DetailForProduct from "./detailproduct/Detailforproduct";
 import Head from "../head/Head";
 import Footer from "../footer/Footer";
 
-export default function DetailSkinSomebyMi() {
+export default function DetailSkinSomebyMi({ shopdata }) {
   const productid = useParams();
   console.log("prodcct id", productid.id);
 
   return (
     <>
-      <Head />
       <div>
-        {shop.map((item) =>
-          item.id === 2
+        {shopdata.map((item) =>
+          item.id == 2
             ? item.skin_somebymi.map(
                 (user) =>
                   user.id == productid.id ? (
-                    <DetailForProduct key={user.id} product={user} />
+                    <div>
+                      <DetailForProduct key={user.id} product={user} />
+                    </div>
                   ) : (
-                    " "
+                    ""
                   )
                 // user.id === productid.id
               )

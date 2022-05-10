@@ -5,7 +5,6 @@ import LoginCompo from "../../components/login/LoginCompo";
 export default function LoginandRegister() {
   return (
     <div>
-      <Head />
       <LoginCompo />
     </div>
   );

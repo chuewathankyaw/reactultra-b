@@ -6,21 +6,31 @@ import DetailForProduct from "./detailproduct/Detailforproduct";
 import Head from "../head/Head";
 import Footer from "../footer/Footer";
 
-function DetailSkinFoundation() {
+function DetailSkinFoundation({ shopdata }) {
   const productid = useParams();
   console.log("prodcct id", productid.id);
 
+  console.log("shopdatas is  ", shopdata);
+
   return (
     <>
-      <Head />
       <div>
-        {shop.map((item) =>
-          item.id === 1
+        {shopdata.map((item) =>
+          item.id == 1
             ? item.skin_fraijour.map(
                 (user) =>
                   user.id == productid.id ? (
-                    <DetailForProduct key={user.id} product={user} />
+                    <div>
+                      {/* <h1>Hello World from Detail foucndation</h1> */}
+                      <DetailForProduct key={user.id} product={user} />
+                    </div>
                   ) : (
+                    // console.log(
+                    //   "i am the if of user",
+                    //   { user},
+                    //   "and",
+                    //   productid.id
+                    // )
                     " "
                   )
                 // user.id === productid.id

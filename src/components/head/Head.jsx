@@ -1,7 +1,6 @@
 import "./head.css";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import Cart from "./cart";
 
 window.addEventListener("scroll", () => {
   document
@@ -9,10 +8,9 @@ window.addEventListener("scroll", () => {
     .classList.toggle("window-scroll", window.scrollY > 0);
 });
 
-export default function Head(props) {
+export default function Head({ cartItems }) {
   const [MobileMenu, setMobileMenu] = useState(false);
-  const [show, setSearch] = useState(false);
-  const [show1, setCart] = useState(false);
+
   return (
     <section className="nav-section">
       <nav>
@@ -64,22 +62,18 @@ export default function Head(props) {
             <img src="images/01.png" alt="" />
           </div>
           <div className="btn">
-            <Link to="/search" id="search" onClick={() => setSearch(!show)}>
+            <Link to="/search" id="search">
               <i class="uil uil-search"></i>
             </Link>
             <Link to="/login" className="login-nav" id="login">
               <i className="uil uil-user "></i>
             </Link>
-            <button
-              id="shopping"
-              className="shoppingcart"
-              onClick={() => setCart(!show1)}
-            >
+            <Link to="/shoppingcart" id="shopping" className="shoppingcart">
               <span>
                 <i class="uil uil-shopping-bag"></i>
               </span>
-              <span>0</span>
-            </button>
+              <span>{cartItems.length === 0 ? "0" : cartItems.length}</span>
+            </Link>
           </div>
           <div className="btn2">
             <button
@@ -94,18 +88,8 @@ export default function Head(props) {
             </button>
           </div>
         </div>
-        {show ? (
-          <div id="searchbox" className="search_warp hide">
-            <div class="search_box">
-              <input type="text" className="input" placeholder="Search..." />
-              <div className="btn ">
-                <i class="uil uil-search"></i>
-              </div>
-            </div>
-          </div>
-        ) : null}
+
         {/* -- cart htoo lay -- */}
-        {show1 ? <Cart /> : null}
       </nav>
     </section>
   );
