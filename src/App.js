@@ -36,6 +36,7 @@ import Head from "./components/head/Head";
 import { skin_fraijour } from "./components/shopdata";
 
 import CartPage1 from "./pages/cart/CartPage";
+import DetailPromotion from "./components/single/DetailPromotion";
 function App() {
   // const { skincareData } = shop.map((item)=> item.skin_fraijour);
   const shopdata = shop;
@@ -101,7 +102,7 @@ function App() {
     <div className="App">
       <Head cartItems={cartItems} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home addToCart={addToCart} />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/contact" element={<Contact />} />
@@ -191,6 +192,11 @@ function App() {
         <Route
           path="/detailbestseller/:id"
           element={<DetailBestseller shopdata={shopdata} />}
+        />
+
+        <Route
+          path="/detailpromotion/:id"
+          element={<DetailPromotion />}
         />
       </Routes>
     </div>

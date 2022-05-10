@@ -8,16 +8,16 @@ import Slider from "../../components/homecomponents/slidercomponents/Slider";
 import Footer from "../../components/footer/Footer";
 import Particle from "../../components/particle/Particle";
 
-export default function Home() {
+export default function Home({ addToCart }) {
   return (
     <>
       <Slider />
       <Particle />
-      <Homeproduct />
+      <Homeproduct addToCart={addToCart} />
       <Particle />
       <Homeblog />
       <Particle />
-      <Homenewarrival />
+      <Homenewarrival addToCart={addToCart} />
       <Particle />
       <Homeaboutus />
       <Particle />

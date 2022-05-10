@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./homeproduct.css";
 import Swiperproduct from "./SwiperProduct/Swiperproduct";
 
-export const Homeproduct = () => {
+export const Homeproduct = ({ addToCart }) => {
   return (
     <>
       <section className="promotion_container container topMar">
@@ -11,7 +11,7 @@ export const Homeproduct = () => {
           <h5 className="second-text">Weekly Sale Item Available</h5>
         </div>
         <div className="promotion_product-container container ">
-          <Swiperproduct />
+          <Swiperproduct addToCart={addToCart} />
         </div>
         <div className="swiper-pagination "></div>
       </section>
