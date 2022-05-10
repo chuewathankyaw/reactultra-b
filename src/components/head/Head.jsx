@@ -61,8 +61,8 @@ export default function Head({ cartItems }) {
           <div className="logo1">
             <img src="images/01.png" alt="" />
           </div>
-          <div className="btn">
-            <Link to="/search" id="search">
+          <div className="btn5">
+            <Link to="/search" className="searchicon" id="search">
               <i class="uil uil-search"></i>
             </Link>
             <Link to="/login" className="login-nav" id="login">

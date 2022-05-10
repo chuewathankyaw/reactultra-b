@@ -143,7 +143,7 @@ nav {
 .btn2 button {
   display: none;
 }
-.btn {
+.btn5 {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
@@ -152,15 +152,17 @@ nav {
   line-height: 1 !important;
 }
 
-.btn button,
-.login-nav {
+.btn5 .searchicon,
+.login-nav,
+.shoppingcart {
   margin: 10px 0;
   padding: 18px;
   border-radius: 50%;
   background-color: transparent;
 }
-.btn i,
-.login-nav i {
+.btn5 .searchicon,
+.login-nav,
+.shoppingcart {
   font-size: 23px;
   gap: 2rem;
   font-weight: bold;
@@ -168,7 +170,7 @@ nav {
   padding-right: 4px;
   cursor: pointer;
 }
-.btn i:hover {
+.btn5 i:hover {
   color: #088178;
 }
 /* Search Box */
@@ -272,11 +274,12 @@ nav {
 }
 
 .shoppingcart span:nth-child(2) {
-  padding: 0 6px;
+  padding: 0px 4px;
   background-color: #9a5ecf;
+  font-size: 0.75em;
   color: white;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 10px;
   position: relative;
   top: -15px;
 }
