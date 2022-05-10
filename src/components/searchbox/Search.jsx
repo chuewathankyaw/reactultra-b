@@ -1,5 +1,5 @@
 import "./search.css";
-import { skin_fraijour } from "../shopdata";
+import { skin_somebymi } from "../shopdata";
 import React, { useState } from "react";
 import { shop } from "../shopdata2";
 import "../shop.css";
@@ -11,22 +11,25 @@ function Search() {
     <>
       <div className="searchboxcontainer">
         <div className="searchcontainer">
-          <Link to="/" className="logo1s">
+          {/* <Link to="/" className="logo1s">
             <img src="images/01.png" alt="" />
-          </Link>
+          </Link> */}
           <input
             id="searchInput"
             type="text"
-            placeholder="search...."
+            placeholder="Search...."
             onChange={(event) => {
               setSearchTerm(event.target.value);
             }}
           />
+          <button className="btnicon">
+            <i class="uil uil-search"></i>
+          </button>
         </div>
         <section className="container">
           <div className="foundation-product-container container">
             {
-              skin_fraijour
+              skin_somebymi
                 .filter((val) => {
                   if (searchTerm == "") {
                     return val;
