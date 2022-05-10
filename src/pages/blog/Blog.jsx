@@ -6,7 +6,6 @@ import Particle from "../../components/particle/Particle";
 export default function Blog() {
   return (
     <>
-      <Head />
       <Blogbanner />
       <Particle />
       <div>

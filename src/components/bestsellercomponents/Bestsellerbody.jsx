@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../shop.css";
-import { bestsellerdata } from "./bestsellerdata";
+import { bestseller, bestsellerdata } from "./bestsellerdata";
 
 class Bestsellerbody extends Component {
   constructor(props) {
@@ -18,14 +18,17 @@ class Bestsellerbody extends Component {
 
   render() {
     const x = this.state.divcontainer;
+    const { bestsellerdata } = bestseller;
+
+    console.log("bestseller body data", bestsellerdata);
     return (
       <section className="foundation-container container">
         <div className="foundation-product-container container">
           {bestsellerdata
             .filter((user) => user.id < 9)
             .map((user) => (
-              <Link to={`/detailbestseller/${user.id}`}>
-                <article className="product">
+              <article className="product">
+                <Link to={`/detailbestseller/${user.id}`}>
                   <h4 className="product-brand">{user.title}</h4>
                   <div className="product-img">
                     <img src={user.product_image} alt="" />
@@ -42,23 +45,23 @@ class Bestsellerbody extends Component {
                     <h5>{user.name}</h5>
                     <h4>{user.price}</h4>
                   </div>
-                  <div className="wrapper">
-                    <div className="icon">
-                      <div className="tooltip right">Add to Cart</div>
-                      <a href="#" className="cart">
-                        <i className="fas fa-shopping-cart"></i>
-                      </a>
-                    </div>
-
-                    <div className="icon">
-                      <div className="tooltip top">Favoriate</div>
-                      <a href="#" className="product-wish">
-                        <i className="fa fa-heart "></i>
-                      </a>
-                    </div>
+                </Link>
+                <div className="wrapper">
+                  <div className="icon">
+                    <div className="tooltip right">Add to Cart</div>
+                    <a href="#" className="cart">
+                      <i className="fas fa-shopping-cart"></i>
+                    </a>
                   </div>
-                </article>
-              </Link>
+
+                  <div className="icon">
+                    <div className="tooltip top">Favoriate</div>
+                    <a href="#" className="product-wish">
+                      <i className="fa fa-heart "></i>
+                    </a>
+                  </div>
+                </div>
+              </article>
             ))}
         </div>
 
@@ -67,8 +70,8 @@ class Bestsellerbody extends Component {
             {bestsellerdata
               .filter((user) => user.id >= 9)
               .map((user) => (
-                <Link to={`/detailbestseller/${user.id}`}>
-                  <article className="product">
+                <article className="product">
+                  <Link to={`/detailbestseller/${user.id}`}>
                     <h4 className="product-brand">{user.title}</h4>
                     <div className="product-img">
                       <img src={user.product_image} alt="" />
@@ -85,23 +88,23 @@ class Bestsellerbody extends Component {
                       <h5>{user.name}</h5>
                       <h4>{user.price}</h4>
                     </div>
-                    <div className="wrapper">
-                      <div className="icon">
-                        <div className="tooltip right">Add to Cart</div>
-                        <a href="#" className="cart">
-                          <i className="fas fa-shopping-cart"></i>
-                        </a>
-                      </div>
-
-                      <div className="icon">
-                        <div className="tooltip top">Favoriate</div>
-                        <a href="#" className="product-wish">
-                          <i className="fa fa-heart "></i>
-                        </a>
-                      </div>
+                  </Link>
+                  <div className="wrapper">
+                    <div className="icon">
+                      <div className="tooltip right">Add to Cart</div>
+                      <a href="#" className="cart">
+                        <i className="fas fa-shopping-cart"></i>
+                      </a>
                     </div>
-                  </article>
-                </Link>
+
+                    <div className="icon">
+                      <div className="tooltip top">Favoriate</div>
+                      <a href="#" className="product-wish">
+                        <i className="fa fa-heart "></i>
+                      </a>
+                    </div>
+                  </div>
+                </article>
               ))}
           </div>
         )}

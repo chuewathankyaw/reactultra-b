@@ -8,19 +8,18 @@ import Makeupbanner2 from "../../../components/makeupCompo/Makeupbanner2";
 import Twowaymakeup from "../../../components/makeupCompo/Twowaymakeup";
 import Particle from "../../../components/particle/Particle";
 
-export default function Makeup() {
+export default function Makeup({ shopdata, addToCart }) {
   return (
     <>
-      <Head />
       <Makeupbanner />
       <Particle />
-      <Foundationmakeup />
+      <Foundationmakeup products={shopdata} addToCart={addToCart} />
       <Particle />
-      <EyeShadowmakeup />
+      <EyeShadowmakeup products={shopdata} addToCart={addToCart} />
       <Particle />
       <Makeupbanner2 />
       <Particle />
-      <Twowaymakeup />
+      <Twowaymakeup products={shopdata} addToCart={addToCart} />
       <Footer />
     </>
   );

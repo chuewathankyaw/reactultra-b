@@ -7,7 +7,6 @@ import Particle from "../../components/particle/Particle";
 export default function Bestseller() {
   return (
     <>
-      <Head />
       <Bestsellerbanner />
       <Particle />
       <Bestsellerbody />

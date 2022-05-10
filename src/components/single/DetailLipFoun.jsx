@@ -5,15 +5,14 @@ import DetailForProduct from "./detailproduct/Detailforproduct";
 import Head from "../head/Head";
 import Footer from "../footer/Footer";
 
-export default function DetailLipFoun() {
+export default function DetailLipFoun({ shopdata }) {
   const productid = useParams();
   console.log("prodcct id", productid.id);
 
   return (
     <>
-      <Head />
       <div>
-        {shop.map((item) =>
+        {shopdata.map((item) =>
           item.id === 7
             ? item.lipstick_foundation.map(
                 (user) =>

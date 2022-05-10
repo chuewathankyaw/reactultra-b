@@ -5,15 +5,14 @@ import DetailForProduct from "./detailproduct/Detailforproduct";
 import Head from "../head/Head";
 import Footer from "../footer/Footer";
 
-export default function DetailHairLotion() {
+export default function DetailHairLotion({ shopdata }) {
   const productid = useParams();
   console.log("prodcct id", productid.id);
 
   return (
     <>
-      <Head />
       <div>
-        {shop.map((item) =>
+        {shopdata.map((item) =>
           item.id === 11
             ? item.hair_bodylotion.map(
                 (user) =>

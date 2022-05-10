@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "./swiperproduct.css";
 import "swiper/css";
-import React from "react";
+import React, { useState } from "react";
 import "../homeproduct.css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -241,6 +241,14 @@ const arrivaldata = [
 
 export default function Swiperproduct({ arrival }) {
   const PromotionSwiper = () => {
+   
+
+    const [cart, setCart] = useState([]);
+
+    const handleClick = (item) => {
+      cart.push(item);
+      console.log(cart);
+    };
     return (
       <Swiper
         modules={[Navigation, Pagination, A11y]}
@@ -279,9 +287,12 @@ export default function Swiperproduct({ arrival }) {
               <div className="wrapperhome">
                 <div className="iconhome">
                   <div className="tooltip righthome">Add to Cart</div>
-                  <a href="#" className="carthome">
+                  <button
+                    onClick={() => handleClick(user)}
+                    className="carthome"
+                  >
                     <i className="fas fa-shopping-cart"></i>
-                  </a>
+                  </button>
                 </div>
 
                 <div className="iconhome">
@@ -299,6 +310,12 @@ export default function Swiperproduct({ arrival }) {
   };
 
   const NewarrivalSwiper = () => {
+    const [cart, setCart] = useState([]);
+
+    const handleClick = (item) => {
+      cart.push(item);
+      console.log(cart);
+    };
     return (
       <Swiper
         modules={[Navigation, Pagination, A11y]}
@@ -333,9 +350,12 @@ export default function Swiperproduct({ arrival }) {
               <div className="wrapperhome">
                 <div className="iconhome">
                   <div className="tooltip righthome">Add to Cart</div>
-                  <a href="#" className="carthome">
+                  <button
+                    onClick={() => handleClick(user)}
+                    className="carthome"
+                  >
                     <i className="fas fa-shopping-cart"></i>
-                  </a>
+                  </button>
                 </div>
 
                 <div className="iconhome">

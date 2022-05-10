@@ -5,15 +5,14 @@ import DetailForProduct from "./detailproduct/Detailforproduct";
 import Head from "../head/Head";
 import Footer from "../footer/Footer";
 
-export default function DetailLipLoreal() {
+export default function DetailLipLoreal({ shopdata }) {
   const productid = useParams();
   console.log("prodcct id", productid.id);
 
   return (
     <>
-      <Head />
       <div>
-        {shop.map((item) =>
+        {shopdata.map((item) =>
           item.id === 9
             ? item.lipstick_loreal.map(
                 (user) =>
