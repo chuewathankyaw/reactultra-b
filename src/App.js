@@ -42,6 +42,7 @@ function App() {
   // const { skincareData } = shop.map((item)=> item.skin_fraijour);
   const shopdata = shop;
   const [cartItems, setCartItems] = useState([]);
+  const [wishItem, setWishItem] = useState([]);
 
   const addToCart = (parent, product) => {
     // const productExit = cartItems
@@ -98,33 +99,105 @@ function App() {
     // );
   };
 
+  const addToWish = (parent, wishproduct) => {
+    const wishlistExit = wishItem.find((item) =>
+      item.id == parent.id
+        ? wishItem.find((pid) => pid === wishproduct.id)
+        : console.log("no item here", wishItem)
+    );
+
+    if (wishlistExit) {
+      setWishItem(
+        wishItem.map((item) =>
+          item.id === wishproduct.id
+            ? { ...wishlistExit, qty: wishlistExit.qty + 1 }
+            : item
+        )
+      );
+    } else {
+      setWishItem([...wishItem, { ...wishproduct, qty: 1 }]);
+    }
+  };
+
+  const decreaseQtyWish = (wishproduct) => {
+    const wishlistExit2 = wishItem.find((item) => item.id === wishproduct.id);
+
+    if (wishlistExit2.qty === 1) {
+      setWishItem(wishItem.filter((item) => item.id !== wishproduct.id));
+    } else {
+      setWishItem(
+        wishItem.map((item) =>
+          item.id === wishproduct.id
+            ? { ...wishlistExit2, qty: wishlistExit2.qty - 1 }
+            : item
+        )
+      );
+    }
+  };
+
   return (
     <div className="App">
-      <Head cartItems={cartItems} />
+      <Head cartItems={cartItems} wishItem={wishItem} />
       <Routes>
-        <Route path="/" element={<Home addToCart={addToCart} />} />
+        <Route
+          path="/"
+          element={<Home addToCart={addToCart} addToWish={addToWish} />}
+        />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/wishlist" element={<Wishlist />} />
+        <Route
+          path="/wishlist"
+          element={
+            <Wishlist
+              wishItem={wishItem}
+              addToWish={addToWish}
+              decreaseQtyWish={decreaseQtyWish}
+            />
+          }
+        />
         <Route path="/contact" element={<Contact />} />
         <Route
           path="/hairandbody"
-          element={<HairandBody shopdata={shopdata} addToCart={addToCart} />}
+          element={
+            <HairandBody
+              shopdata={shopdata}
+              addToCart={addToCart}
+              addToWish={addToWish}
+            />
+          }
         />
         <Route
           path="/lipstick"
-          element={<Lipstick shopdata={shopdata} addToCart={addToCart} />}
+          element={
+            <Lipstick
+              shopdata={shopdata}
+              addToCart={addToCart}
+              addToWish={addToWish}
+            />
+          }
         />
         <Route
           path="/makeup"
-          element={<Makeup shopdata={shopdata} addToCart={addToCart} />}
+          element={
+            <Makeup
+              shopdata={shopdata}
+              addToCart={addToCart}
+              addToWish={addToWish}
+            />
+          }
         />
         <Route
           path="/skincare"
-          element={<Skincare shopdata={shopdata} addToCart={addToCart} />}
+          element={
+            <Skincare
+              shopdata={shopdata}
+              addToCart={addToCart}
+              addToWish={addToWish}
+            />
+          }
         />
         <Route
           path="/bestseller"
-          element={<Bestseller addToCart={addToCart} />}
+          element={<Bestseller addToCart={addToCart} addToWish={addToWish} />}
         />
         <Route path="/login" element={<LoginandRegister />} />
         <Route path="/single" element={<Single />} />

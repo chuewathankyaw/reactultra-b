@@ -8,18 +8,30 @@ import Showerhair from "../../../components/hairCompo/Showerhair";
 
 import Footer from "../../../components/footer/Footer";
 import Particle from "../../../components/particle/Particle";
-export const HairandBody = ({ shopdata, addToCart }) => {
+export const HairandBody = ({ shopdata, addToCart, addToWish }) => {
   return (
     <>
       <Hairbanner />
       <Particle />
-      <Foundationhair products={shopdata} addToCart={addToCart} />
+      <Foundationhair
+        products={shopdata}
+        addToCart={addToCart}
+        addToWish={addToWish}
+      />
       <Particle />
-      <Bodylotionhair products={shopdata} addToCart={addToCart} />
+      <Bodylotionhair
+        products={shopdata}
+        addToCart={addToCart}
+        addToWish={addToWish}
+      />
       <Particle />
       <Hairbanner2 />
       <Particle />
-      <Showerhair products={shopdata} addToCart={addToCart} />
+      <Showerhair
+        products={shopdata}
+        addToCart={addToCart}
+        addToWish={addToWish}
+      />
       <Footer />
     </>
   );

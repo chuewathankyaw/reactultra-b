@@ -13,19 +13,31 @@ import Somebymiskin from "../../../components/skincareCompo/Somebymiskin";
 
 // import "./skincare.css";
 
-export default function Skincare({ shopdata, addToCart }) {
+export default function Skincare({ shopdata, addToCart, addToWish }) {
   console.log("shoopdata from skincare Array is", shopdata);
   return (
     <>
       <Skinbanner />
       <Particle />
-      <FoundationArea products={shopdata} addToCart={addToCart} />
+      <FoundationArea
+        products={shopdata}
+        addToCart={addToCart}
+        addToWish={addToWish}
+      />
       <Particle />
-      <Somebymiskin products={shopdata} addToCart={addToCart} />
+      <Somebymiskin
+        products={shopdata}
+        addToCart={addToCart}
+        addToWish={addToWish}
+      />
       <Particle />
       <Skinbanner2 />
       <Particle />
-      <Innifreeskin products={shopdata} addToCart={addToCart} />
+      <Innifreeskin
+        products={shopdata}
+        addToCart={addToCart}
+        addToWish={addToWish}
+      />
       <Footer />
     </>
   );

@@ -4,14 +4,17 @@ import Particle from "../../components/particle/Particle";
 import Wbanner from "../../components/wish/wbanner/Wbanner";
 import Wtable from "../../components/wtable/Wtable";
 
-export default function Wishlist() {
+const Wishlist = ({ wishItem, addToWish, decreaseQtyWish }) => {
   return (
     <>
-      <Head />
       <Wbanner />
       <Particle />
-      <Wtable />
-      <Footer />
+      <Wtable
+        wishItem={wishItem}
+        addToWish={addToWish}
+        decreaseQtyWish={decreaseQtyWish}
+      />
     </>
   );
-}
+};
+export default Wishlist;

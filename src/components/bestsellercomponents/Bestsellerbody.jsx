@@ -18,6 +18,7 @@ class Bestsellerbody extends Component {
 
   render() {
     const addToCart = this.props.addToCart;
+    const addToWish = this.props.addToWish;
     const x = this.state.divcontainer;
 
     return (
@@ -60,9 +61,12 @@ class Bestsellerbody extends Component {
 
                         <div className="icon">
                           <div className="tooltip top">Favoriate</div>
-                          <a href="#" className="product-wish">
+                          <button
+                            className="product-wish"
+                            onClick={() => addToWish(item, user)}
+                          >
                             <i className="fa fa-heart "></i>
-                          </a>
+                          </button>
                         </div>
                       </div>
                     </article>

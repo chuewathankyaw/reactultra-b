@@ -12,8 +12,8 @@ import { Link } from "react-router-dom";
 
 // SwiperCore.use([Navigation, Pagination, Scrollbar]);
 
-export default function Swiperproduct({ addToCart, arrival }) {
-  const PromotionSwiper = ({ addToCart }) => {
+export default function Swiperproduct({ addToCart, arrival, addToWish }) {
+  const PromotionSwiper = ({ addToCart, addToWish }) => {
     return (
       <Swiper
         modules={[Navigation, Pagination, A11y]}
@@ -66,9 +66,12 @@ export default function Swiperproduct({ addToCart, arrival }) {
 
                       <div className="iconhome">
                         <div className="tooltip tophome">Favoriate</div>
-                        <a href="#" className="producthome-wish">
+                        <button
+                          className="producthome-wish"
+                          onClick={() => addToWish(item, user)}
+                        >
                           <i className="fa fa-heart "></i>
-                        </a>
+                        </button>
                       </div>
                     </div>
                   </article>
@@ -129,9 +132,12 @@ export default function Swiperproduct({ addToCart, arrival }) {
 
                       <div className="iconhome">
                         <div className="tooltip tophome">Favoriate</div>
-                        <a href="#" className="producthome-wish">
+                        <button
+                          className="producthome-wish"
+                          onClick={() => addToWish(item, user)}
+                        >
                           <i className="fa fa-heart "></i>
-                        </a>
+                        </button>
                       </div>
                     </div>
                   </article>
@@ -144,8 +150,8 @@ export default function Swiperproduct({ addToCart, arrival }) {
   };
 
   return arrival ? (
-    <NewarrivalSwiper addToCart={addToCart} />
+    <NewarrivalSwiper addToCart={addToCart} addToWish={addToWish} />
   ) : (
-    <PromotionSwiper addToCart={addToCart} />
+    <PromotionSwiper addToCart={addToCart} addToWish={addToWish} />
   );
 }
