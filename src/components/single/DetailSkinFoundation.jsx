@@ -6,7 +6,7 @@ import DetailForProduct from "./detailproduct/Detailforproduct";
 import Head from "../head/Head";
 import Footer from "../footer/Footer";
 
-function DetailSkinFoundation({ shopdata }) {
+function DetailSkinFoundation({ shopdata, addToCart }) {
   const productid = useParams();
   console.log("prodcct id", productid.id);
 
@@ -23,6 +23,12 @@ function DetailSkinFoundation({ shopdata }) {
                     <div>
                       {/* <h1>Hello World from Detail foucndation</h1> */}
                       <DetailForProduct key={user.id} product={user} />
+                      <button
+                        className="cart2"
+                        onClick={() => addToCart(item, user)}
+                      >
+                        Add to cart
+                      </button>
                     </div>
                   ) : (
                     // console.log(
