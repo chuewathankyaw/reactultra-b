@@ -426,12 +426,7 @@ button.white-1:hover {
     width: 0;
     height: 0 !important;
   }
-  .wrapperhome .iconhome .tooltip.righthome::before {
-    content: " ";
-    position: absolute;
-    width: 0;
-    height: 0;
-  }
+  
   #aboutus {
     flex-direction: column;
     padding-top: 2rem;

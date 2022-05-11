@@ -122,7 +122,10 @@ function App() {
           path="/skincare"
           element={<Skincare shopdata={shopdata} addToCart={addToCart} />}
         />
-        <Route path="/bestseller" element={<Bestseller />} />
+        <Route
+          path="/bestseller"
+          element={<Bestseller addToCart={addToCart} />}
+        />
         <Route path="/login" element={<LoginandRegister />} />
         <Route path="/single" element={<Single />} />
         <Route path="/search" element={<Search />} />
