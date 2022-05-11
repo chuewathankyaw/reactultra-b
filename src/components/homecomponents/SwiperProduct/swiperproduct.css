@@ -199,6 +199,7 @@ img {
     position: absolute;
     top: 362px;
     left: 19px !important;
+    right: 100px;
 
     z-index: 1;
   }
@@ -209,11 +210,11 @@ img {
     padding: 0rem;
   }
   .star {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     padding: 0.3rem 0.5rem;
     color: var(--star-fill);
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .carthome {
@@ -232,7 +233,7 @@ img {
   .wrapperhome .iconhome:hover .tooltip.tophome {
     /* width: 40%; */
     top: 364px;
-    left: 15px;
+    left: 45px;
   }
 
   .wrapperhome .iconhome:hover .tooltip.righthome {

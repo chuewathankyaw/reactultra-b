@@ -4,12 +4,12 @@ import Footer from "../../components/footer/Footer";
 import Head from "../../components/head/Head";
 import Particle from "../../components/particle/Particle";
 
-export default function Bestseller() {
+export default function Bestseller({ addToCart }) {
   return (
     <>
       <Bestsellerbanner />
       <Particle />
-      <Bestsellerbody />
+      <Bestsellerbody addToCart={addToCart} />
       <Footer />
     </>
   );
