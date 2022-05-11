@@ -267,17 +267,17 @@ button.white-1:hover {
     margin: auto !important;
   }
   .carthome {
-    width: 30px;
-    height: 30px;
+    width: 30px !important;
+    height: 30px !important;
 
     position: absolute;
-    bottom: 130px;
-    right: 12px;
+    bottom: 160px !important;
+    right: 12px !important ;
   }
   .producthome-wish {
     position: absolute;
-    top: 45px;
-    right: 15px;
+    top: 45px !important;
+    right: 15px !important;
   }
   .producthome-wish .fa {
     font-size: 25px;
@@ -286,27 +286,14 @@ button.white-1:hover {
   .wrapperhome .iconhome:hover .tooltip.tophome {
     /* width: 40%; */
     width: fit-content;
-    top: 50px;
-    right: 40px;
+    top: 25px !important;
+    right: 10px !important;
   }
 
   .wrapperhome .iconhome:hover .tooltip.righthome {
     width: fit-content;
-    bottom: 135px;
-    right: 42px;
-  }
-
-  .wrapperhome .iconhome .tooltip.tophome::before {
-    content: " ";
-    position: absolute;
-    width: 0;
-    height: 0;
-  }
-  .wrapperhome .iconhome .tooltip.righthome::before {
-    content: " ";
-    position: absolute;
-    width: 0;
-    height: 0;
+    bottom: 162px !important;
+    right: 46px !important;
   }
 
   #aboutus {
@@ -400,8 +387,8 @@ button.white-1:hover {
     font-size: 1rem;
   }
   .carthome {
-    width: 30px;
-    height: 30px;
+    width: 30px !important;
+    height: 30px !important;
     position: absolute;
     bottom: 12px;
     right: 7px;
@@ -418,12 +405,12 @@ button.white-1:hover {
   .wrapperhome .iconhome:hover .tooltip.tophome {
     /* width: 40%; */
     width: fit-content;
-    top: 377px;
-    left: 42px;
+    top: 37px !important;
+    left: 44px;
   }
   .producthome-wish {
     position: absolute;
-    top: 377px !important;
+    top: 37px !important;
     left: 20px !important;
   }
 
@@ -437,7 +424,7 @@ button.white-1:hover {
     content: " ";
     position: absolute;
     width: 0;
-    height: 0;
+    height: 0 !important;
   }
   .wrapperhome .iconhome .tooltip.righthome::before {
     content: " ";
@@ -612,63 +599,6 @@ button.white-1:hover {
   .producthome .producthome-brand {
     margin-top: 1.3rem;
     margin-bottom: 2rem;
-  }
-  .producthome-wish {
-    position: absolute;
-    top: 362px;
-    left: 19px;
-
-    z-index: 1;
-  }
-  .producthome-wish .fa {
-    font-size: 20px;
-  }
-  .producthome-info {
-    padding: 0rem;
-  }
-  .star {
-    margin-top: 1rem;
-    padding: 0.3rem 0.5rem;
-    color: var(--star-fill);
-    text-align: center;
-    font-size: 15px;
-  }
-
-  .carthome {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    bottom: 12px;
-    right: 18px;
-  }
-
-  .wrapperhome .iconhome .tooltip {
-    font-size: 11px;
-
-    padding: 0px 8px;
-  }
-  .wrapperhome .iconhome:hover .tooltip.tophome {
-    width: 40%;
-    top: 364px;
-    left: 45px;
-  }
-
-  .wrapperhome .iconhome:hover .tooltip.righthome {
-    bottom: 15px;
-    right: 48px;
-  }
-
-  .wrapperhome .iconhome .tooltip.tophome::before {
-    content: " ";
-    position: absolute;
-    width: 0;
-    height: 0;
-  }
-  .wrapperhome .iconhome .tooltip.righthome::before {
-    content: " ";
-    position: absolute;
-    width: 0;
-    height: 0;
   }
 
   #aboutus {
