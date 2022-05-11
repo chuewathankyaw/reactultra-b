@@ -5,7 +5,7 @@ import DetailForProduct from "./detailproduct/Detailforproduct";
 import Head from "../head/Head";
 import Footer from "../footer/Footer";
 
-export default function DetailSkinInnifree({ shopdata }) {
+export default function DetailSkinInnifree({ shopdata, addToCart }) {
   const productid = useParams();
   console.log("prodcct id from skin innifee", productid.id);
 
@@ -19,6 +19,12 @@ export default function DetailSkinInnifree({ shopdata }) {
                   user.id == productid.id ? (
                     <div>
                       <DetailForProduct key={user.id} product={user} />
+                      <button
+                        className="cart2"
+                        onClick={() => addToCart(item, user)}
+                      >
+                        Add to cart
+                      </button>
                     </div>
                   ) : (
                     " "

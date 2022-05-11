@@ -98,7 +98,7 @@ export default function Swiperproduct({ addToCart, arrival }) {
             ? item.arrivaldata.map((user) => (
                 <SwiperSlide key={user.id}>
                   <article className="producthome">
-                    <Link to={`/detailmakupfoundation/${user.id}`}>
+                    <Link to={`/detailnewarrival/${user.id}`}>
                       <h4 className="producthome-brand">{user.title}</h4>
                       <div className="producthome-img">
                         <img src={user.product_image} alt="" />

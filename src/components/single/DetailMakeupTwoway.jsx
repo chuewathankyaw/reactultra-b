@@ -5,7 +5,7 @@ import DetailForProduct from "./detailproduct/Detailforproduct";
 import Head from "../head/Head";
 import Footer from "../footer/Footer";
 
-export default function DetailMakeupTwoway({ shopdata }) {
+export default function DetailMakeupTwoway({ shopdata, addToCart }) {
   const productid = useParams();
   console.log("prodcct id", productid.id);
 
@@ -17,7 +17,15 @@ export default function DetailMakeupTwoway({ shopdata }) {
             ? item.makeup_twoway.map(
                 (user) =>
                   user.id == productid.id ? (
-                    <DetailForProduct key={user.id} product={user} />
+                    <div>
+                      <DetailForProduct key={user.id} product={user} />
+                      <button
+                        className="cart2"
+                        onClick={() => addToCart(item, user)}
+                      >
+                        Add to cart
+                      </button>
+                    </div>
                   ) : (
                     " "
                   )

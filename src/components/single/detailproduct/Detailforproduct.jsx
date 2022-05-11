@@ -1,6 +1,6 @@
 import React from "react";
 import "./detail.css";
-const DetailForProduct = ({ product }) => {
+const DetailForProduct = ({ product, addToCart }) => {
   console.log("Hello here is props id is", product.detail_image[0]);
   const productDetail = product;
   // product.detail_image.map((img) => console.log(img));
@@ -35,7 +35,9 @@ const DetailForProduct = ({ product }) => {
             <p>{productDetail.description}</p>
             <p>{productDetail.content}</p>
 
-            <button className="cart2">Add to cart</button>
+            {/* <button className="cart2" onClick={() => addToCart(item, user)}>
+              Add to cart
+            </button> */}
           </div>
         </div>
       </div>

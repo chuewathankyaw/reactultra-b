@@ -37,6 +37,7 @@ import { skin_fraijour } from "./components/shopdata";
 
 import CartPage1 from "./pages/cart/CartPage";
 import DetailPromotion from "./components/single/DetailPromotion";
+import DetailNewArrival from "./components/single/DetailNewArrival";
 function App() {
   // const { skincareData } = shop.map((item)=> item.skin_fraijour);
   const shopdata = shop;
@@ -139,54 +140,74 @@ function App() {
 
         <Route
           path="/detailskinfoundation/:id"
-          element={<DetailSkinFoundation shopdata={shopdata} />}
+          element={
+            <DetailSkinFoundation shopdata={shopdata} addToCart={addToCart} />
+          }
         />
         <Route
           path="/detailskinsomebymi/:id"
-          element={<DetailSkinSomebyMi shopdata={shopdata} />}
+          element={
+            <DetailSkinSomebyMi shopdata={shopdata} addToCart={addToCart} />
+          }
         />
         <Route
           path="/detailskininnifree/:id"
-          element={<DetailSkinInnifree shopdata={shopdata} />}
+          element={
+            <DetailSkinInnifree shopdata={shopdata} addToCart={addToCart} />
+          }
         />
 
         <Route
           path="/detailmakupfoundation/:id"
-          element={<DetailMakeupFoun shopdata={shopdata} />}
+          element={
+            <DetailMakeupFoun shopdata={shopdata} addToCart={addToCart} />
+          }
         />
         <Route
           path="/detailmakupeyeshadow/:id"
-          element={<DetailMakeupEye shopdata={shopdata} />}
+          element={
+            <DetailMakeupEye shopdata={shopdata} addToCart={addToCart} />
+          }
         />
         <Route
           path="/detailmakuptwoway/:id"
-          element={<DetailMakeupTwoway shopdata={shopdata} />}
+          element={
+            <DetailMakeupTwoway shopdata={shopdata} addToCart={addToCart} />
+          }
         />
 
         <Route
           path="/detaillipfoundation/:id"
-          element={<DetailLipFoun shopdata={shopdata} />}
+          element={<DetailLipFoun shopdata={shopdata} addToCart={addToCart} />}
         />
         <Route
           path="/detaillipchanel/:id"
-          element={<DetailLipChanel shopdata={shopdata} />}
+          element={
+            <DetailLipChanel shopdata={shopdata} addToCart={addToCart} />
+          }
         />
         <Route
           path="/detailliploreal/:id"
-          element={<DetailLipLoreal shopdata={shopdata} />}
+          element={
+            <DetailLipLoreal shopdata={shopdata} addToCart={addToCart} />
+          }
         />
 
         <Route
           path="/detailhairfoundation/:id"
-          element={<DetailHairFoun shopdata={shopdata} />}
+          element={<DetailHairFoun shopdata={shopdata} addToCart={addToCart} />}
         />
         <Route
           path="/detailhairlotion/:id"
-          element={<DetailHairLotion shopdata={shopdata} />}
+          element={
+            <DetailHairLotion shopdata={shopdata} addToCart={addToCart} />
+          }
         />
         <Route
           path="/detailhairshower/:id"
-          element={<DetailHairShower shopdata={shopdata} />}
+          element={
+            <DetailHairShower shopdata={shopdata} addToCart={addToCart} />
+          }
         />
 
         <Route
@@ -196,7 +217,12 @@ function App() {
 
         <Route
           path="/detailpromotion/:id"
-          element={<DetailPromotion />}
+          element={<DetailPromotion addToCart={addToCart} />}
+        />
+
+        <Route
+          path="/detailnewarrival/:id"
+          element={<DetailNewArrival addToCart={addToCart} />}
         />
       </Routes>
     </div>
