@@ -18,6 +18,7 @@ class Foundationmakeup extends Component {
 
   render() {
     const addToCart = this.props.addToCart;
+    const addToWish = this.props.addToWish;
 
     // console.log("The skincaer skincare argus1 is", addToCart);
     const x = this.state.divcontainer;
@@ -63,9 +64,12 @@ class Foundationmakeup extends Component {
 
                         <div className="icon">
                           <div className="tooltip top">Favoriate</div>
-                          <a href="#" className="product-wish">
+                          <button
+                            className="product-wish"
+                            onClick={() => addToWish(item, user)}
+                          >
                             <i className="fa fa-heart "></i>
-                          </a>
+                          </button>
                         </div>
                       </div>
                     </article>
@@ -113,9 +117,12 @@ class Foundationmakeup extends Component {
 
                           <div className="icon">
                             <div className="tooltip top">Favoriate</div>
-                            <a href="#" className="product-wish">
+                            <button
+                              className="product-wish"
+                              onClick={() => addToWish(item, user)}
+                            >
                               <i className="fa fa-heart "></i>
-                            </a>
+                            </button>
                           </div>
                         </div>
                       </article>

@@ -2,7 +2,7 @@ import React from "react";
 import "./homeproduct.css";
 import Swiperproduct from "./SwiperProduct/Swiperproduct";
 
-export default function Homenewarrival({ addToCart }) {
+export default function Homenewarrival({ addToCart, addToWish }) {
   return (
     <section class="promotion_container container ">
       <div class="promotion_title">
@@ -12,7 +12,7 @@ export default function Homenewarrival({ addToCart }) {
         </h5>
       </div>
       <div class="promotion_product-container container ">
-        <Swiperproduct addToCart={addToCart} arrival />
+        <Swiperproduct addToCart={addToCart} addToWish={addToWish} arrival />
       </div>
       {/* <div class="swiper-pagination "></div> */}
     </section>
