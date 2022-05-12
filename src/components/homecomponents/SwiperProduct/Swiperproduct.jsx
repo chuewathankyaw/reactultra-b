@@ -58,7 +58,7 @@ export default function Swiperproduct({ addToCart, arrival }) {
                         <div className="tooltip righthome">Add to Cart</div>
                         <button
                           className="carthome"
-                          onClick={() => addToCart(item, user)}
+                          onClick={() => addToCart(user)}
                         >
                           <i className="fas fa-shopping-cart"></i>
                         </button>
@@ -121,7 +121,7 @@ export default function Swiperproduct({ addToCart, arrival }) {
                         <div className="tooltip righthome">Add to Cart</div>
                         <button
                           className="carthome"
-                          onClick={() => addToCart(item, user)}
+                          onClick={() => addToCart(user)}
                         >
                           <i className="fas fa-shopping-cart"></i>
                         </button>

@@ -19,10 +19,7 @@ export default function DetailMakeupEye({ shopdata, addToCart }) {
                   user.id == productid.id ? (
                     <div>
                       <DetailForProduct key={user.id} product={user} />
-                      <button
-                        className="cart2"
-                        onClick={() => addToCart(item, user)}
-                      >
+                      <button className="cart2" onClick={() => addToCart(user)}>
                         Add to cart
                       </button>
                     </div>

@@ -57,7 +57,7 @@ class Innifreeskin extends Component {
                           <div className="tooltip right">Add to Cart</div>
                           <button
                             className="cart"
-                            onClick={() => addToCart(item, user)}
+                            onClick={() => addToCart(user)}
                           >
                             <i className="fas fa-shopping-cart"></i>
                           </button>
@@ -106,7 +106,7 @@ class Innifreeskin extends Component {
                             <div className="tooltip right">Add to Cart</div>
                             <button
                               className="cart"
-                              onClick={() => addToCart(item, user)}
+                              onClick={() => addToCart(user)}
                             >
                               <i className="fas fa-shopping-cart"></i>
                             </button>

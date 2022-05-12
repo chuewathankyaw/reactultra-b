@@ -33,25 +33,24 @@ const CartData = ({ cartItems, addToCart, decreaseQty }) => {
                   </div>
                   <div className="cart-items-function">
                     <div className="removeCart">
-                      {/* <button className="removeCart">
+                      <button className="removeCart">
                         <i className="fa-solid fa-xmark"></i>
-                      </button> */}
+                      </button>
                     </div>
                     {/* stpe: 5 
                     product ko qty lai inc ra des garne
                     */}
                     <div className="cartControl b_flex">
-                      {/* <button
+                      <button
                         className="incCart"
                         onClick={() => addToCart(item)}
                       >
                         <i className="fa-solid fa-plus"></i>
-                      </button> */}
+                      </button>
                       <button
                         className="desCart b_flex"
                         onClick={() => decreaseQty(item)}
                       >
-                        <span>Remove</span>
                         <i className="fa-solid fa-minus"></i>
                       </button>
                     </div>
