@@ -98,40 +98,18 @@ function App() {
     setCartItems(cartItems.filter((item) => item.id !== product.id));
   };
 
-  const addToWish = (parent, wishproduct) => {
-    const wishlistExit = wishItem.find((item) =>
-      item.id == parent.id
-        ? wishItem.find((pid) => pid === wishproduct.id)
-        : console.log("no item here", wishItem)
-    );
+  //wishlist page
 
-    if (wishlistExit) {
-      setWishItem(
-        wishItem.map((item) =>
-          item.id === wishproduct.id
-            ? { ...wishlistExit, qty: wishlistExit.qty + 1 }
-            : item
-        )
-      );
-    } else {
+  const addToWish = (wishproduct) => {
+    const wishlistExit = wishItem.find((item) => item.id === wishproduct.id);
+
+    if (!wishlistExit) {
       setWishItem([...wishItem, { ...wishproduct, qty: 1 }]);
     }
   };
 
   const decreaseQtyWish = (wishproduct) => {
-    const wishlistExit2 = wishItem.find((item) => item.id === wishproduct.id);
-
-    if (wishlistExit2.qty === 1) {
-      setWishItem(wishItem.filter((item) => item.id !== wishproduct.id));
-    } else {
-      setWishItem(
-        wishItem.map((item) =>
-          item.id === wishproduct.id
-            ? { ...wishlistExit2, qty: wishlistExit2.qty - 1 }
-            : item
-        )
-      );
-    }
+    setWishItem(wishItem.filter((item) => item.id !== wishproduct.id));
   };
 
   return (

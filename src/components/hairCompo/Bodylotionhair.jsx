@@ -66,7 +66,7 @@ class Bodylotionhair extends Component {
                           <div className="tooltip top">Favoriate</div>
                           <button
                             className="product-wish"
-                            onClick={() => addToWish(item, user)}
+                            onClick={() => addToWish(user)}
                           >
                             <i className="fa fa-heart "></i>
                           </button>
@@ -119,7 +119,7 @@ class Bodylotionhair extends Component {
                             <div className="tooltip top">Favoriate</div>
                             <button
                               className="product-wish"
-                              onClick={() => addToWish(item, user)}
+                              onClick={() => addToWish(user)}
                             >
                               <i className="fa fa-heart "></i>
                             </button>
