@@ -30,7 +30,7 @@ class Foundationmakeup extends Component {
           {shopproducts.map((item) =>
             item.id == 4
               ? item.makeup_foundation
-                  .filter((user) => user.id < 9)
+                  .filter((user) => user.id < 57)
                   .map((user) => (
                     <article className="product">
                       <Link to={`/detailmakupfoundation/${user.id}`}>
@@ -56,7 +56,7 @@ class Foundationmakeup extends Component {
                           <div className="tooltip right">Add to Cart</div>
                           <button
                             className="cart"
-                            onClick={() => addToCart(item, user)}
+                            onClick={() => addToCart(user)}
                           >
                             <i className="fas fa-shopping-cart"></i>
                           </button>
@@ -83,7 +83,7 @@ class Foundationmakeup extends Component {
             {shopproducts.map((item) =>
               item.id == 4
                 ? item.makeup_foundation
-                    .filter((user) => user.id >= 9)
+                    .filter((user) => user.id >= 57)
                     .map((user) => (
                       <article className="product">
                         <Link to={`/detailmakupfoundation/${user.id}`}>
@@ -109,7 +109,7 @@ class Foundationmakeup extends Component {
                             <div className="tooltip right">Add to Cart</div>
                             <button
                               className="cart"
-                              onClick={() => addToCart(item, user)}
+                              onClick={() => addToCart(user)}
                             >
                               <i className="fas fa-shopping-cart"></i>
                             </button>

@@ -29,7 +29,7 @@ class EyeShadowmakeup extends Component {
           {shopproducts.map((item) =>
             item.id == 5
               ? item.makeup_eyeshadow
-                  .filter((user) => user.id < 5)
+                  .filter((user) => user.id < 69)
                   .map((user) => (
                     <article className="product">
                       <Link to={`/detailmakupeyeshadow/${user.id}`}>
@@ -55,7 +55,7 @@ class EyeShadowmakeup extends Component {
                           <div className="tooltip right">Add to Cart</div>
                           <button
                             className="cart"
-                            onClick={() => addToCart(item, user)}
+                            onClick={() => addToCart(user)}
                           >
                             <i className="fas fa-shopping-cart"></i>
                           </button>
@@ -82,7 +82,7 @@ class EyeShadowmakeup extends Component {
             {shopproducts.map((item) =>
               item.id == 5
                 ? item.makeup_eyeshadow
-                    .filter((user) => user.id >= 5)
+                    .filter((user) => user.id >= 69)
                     .map((user) => (
                       <article className="product">
                         <Link to={`/detailmakupeyeshadow/${user.id}`}>
@@ -108,7 +108,7 @@ class EyeShadowmakeup extends Component {
                             <div className="tooltip right">Add to Cart</div>
                             <button
                               className="cart"
-                              onClick={() => addToCart(item, user)}
+                              onClick={() => addToCart(user)}
                             >
                               <i className="fas fa-shopping-cart"></i>
                             </button>

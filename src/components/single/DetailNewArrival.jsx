@@ -22,10 +22,7 @@ function DetailNewArrival({ addToCart }) {
                   <div>
                     {/* <h1>Hello World from Detail foucndation</h1> */}
                     <DetailForProduct key={user.id} product={user} />
-                    <button
-                      className="cart2"
-                      onClick={() => addToCart(item, user)}
-                    >
+                    <button className="cart2" onClick={() => addToCart(user)}>
                       Add to cart
                     </button>
                   </div>

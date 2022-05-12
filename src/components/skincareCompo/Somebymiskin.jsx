@@ -30,7 +30,7 @@ class Somebymiskin extends Component {
           {shopproducts.map((item) =>
             item.id == 2
               ? item.skin_somebymi
-                  .filter((user) => user.id < 5)
+                  .filter((user) => user.id < 21)
                   .map((user) => (
                     <article className="product">
                       <Link to={`/detailskinsomebymi/${user.id}`}>
@@ -56,7 +56,7 @@ class Somebymiskin extends Component {
                           <div className="tooltip right">Add to Cart</div>
                           <button
                             className="cart"
-                            onClick={() => addToCart(item, user)}
+                            onClick={() => addToCart(user)}
                           >
                             <i className="fas fa-shopping-cart"></i>
                           </button>
@@ -83,7 +83,7 @@ class Somebymiskin extends Component {
             {shopproducts.map((item) =>
               item.id == 2
                 ? item.skin_somebymi
-                    .filter((user) => user.id >= 5)
+                    .filter((user) => user.id >= 21)
                     .map((user) => (
                       <article className="product">
                         <Link to={`/detailskinsomebymi/${user.id}`}>
@@ -109,7 +109,7 @@ class Somebymiskin extends Component {
                             <div className="tooltip right">Add to Cart</div>
                             <button
                               className="cart"
-                              onClick={() => addToCart(item, user)}
+                              onClick={() => addToCart(user)}
                             >
                               <i className="fas fa-shopping-cart"></i>
                             </button>

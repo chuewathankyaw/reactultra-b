@@ -30,7 +30,7 @@ class Lorellipstick extends Component {
           {shopproducts.map((item) =>
             item.id == 9
               ? item.lipstick_loreal
-                  .filter((user) => user.id < 5)
+                  .filter((user) => user.id < 133)
                   .map((user) => (
                     <article className="product">
                       <Link to={`/detailliploreal/${user.id}`}>
@@ -56,7 +56,7 @@ class Lorellipstick extends Component {
                           <div className="tooltip right">Add to Cart</div>
                           <button
                             className="cart"
-                            onClick={() => addToCart(item, user)}
+                            onClick={() => addToCart(user)}
                           >
                             <i className="fas fa-shopping-cart"></i>
                           </button>
@@ -83,7 +83,7 @@ class Lorellipstick extends Component {
             {shopproducts.map((item) =>
               item.id == 9
                 ? item.lipstick_loreal
-                    .filter((user) => user.id >= 5)
+                    .filter((user) => user.id >= 133)
                     .map((user) => (
                       <article className="product">
                         <Link to={`/detailliploreal/${user.id}`}>
@@ -109,7 +109,7 @@ class Lorellipstick extends Component {
                             <div className="tooltip right">Add to Cart</div>
                             <button
                               className="cart"
-                              onClick={() => addToCart(item, user)}
+                              onClick={() => addToCart(user)}
                             >
                               <i className="fas fa-shopping-cart"></i>
                             </button>

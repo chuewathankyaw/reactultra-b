@@ -27,7 +27,7 @@ class Bestsellerbody extends Component {
           {shop.map((item) =>
             item.id == 15
               ? item.bestsellerdata
-                  .filter((user) => user.id < 9)
+                  .filter((user) => user.id < 233)
                   .map((user) => (
                     <article className="product">
                       <Link to={`/detailbestseller/${user.id}`}>
@@ -53,7 +53,7 @@ class Bestsellerbody extends Component {
                           <div className="tooltip right">Add to Cart</div>
                           <button
                             className="cart"
-                            onClick={() => addToCart(item, user)}
+                            onClick={() => addToCart(user)}
                           >
                             <i className="fas fa-shopping-cart"></i>
                           </button>
@@ -80,7 +80,7 @@ class Bestsellerbody extends Component {
             {shop.map((item) =>
               item.id == 15
                 ? item.bestsellerdata
-                    .filter((user) => user.id >= 9)
+                    .filter((user) => user.id >= 233)
                     .map((user) => (
                       <article className="product">
                         <Link to={`/detailbestseller/${user.id}`}>
@@ -106,7 +106,7 @@ class Bestsellerbody extends Component {
                             <div className="tooltip right">Add to Cart</div>
                             <button
                               className="cart"
-                              onClick={() => addToCart(item, user)}
+                              onClick={() => addToCart(user)}
                             >
                               <i className="fas fa-shopping-cart"></i>
                             </button>

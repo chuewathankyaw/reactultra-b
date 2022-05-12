@@ -44,21 +44,11 @@ function App() {
   const [cartItems, setCartItems] = useState([]);
   const [wishItem, setWishItem] = useState([]);
 
-  const addToCart = (parent, product) => {
-    // const productExit = cartItems
-    //   .filter((item) => item.id === parent.id)
-    //   .find((pid) => pid.id === product.id);
-
-    const productExit = cartItems.find((item) =>
-      item.id == parent.id
-        ? cartItems.find((pid) => pid == product.id)
-        : console.log("no item here product exit", cartItems)
-    );
+  const addToCart = (product) => {
+    const productExit = cartItems.find((item) => item.id === product.id);
 
     console.log("productExit", productExit);
     console.log("productExit in", cartItems);
-
-    console.log("parent id exits is", parent.id);
 
     console.log("product exits is", product.id);
 
@@ -77,26 +67,27 @@ function App() {
 
   const decreaseQty = (product) => {
     // if hamro product alredy cart xa bhane  find garna help garxa
-    // const productExit2 = cartItems.find((item) => item.id === product.id);
-    setCartItems(cartItems.filter((item) => item.id !== product.id));
+    const productExit2 = cartItems.find((item) => item.id === product.id);
+
     // if product is exit and its qty is 1 then we will run a fun  setCartItem
     // inside  setCartItem we will run filter to check if item.id is match to product.id
     // if the item.id is doesnt match to product.id then that items are display in cart
     // else
-    // if (productExit2.qty === 1) {
-    //   setCartItems(cartItems.filter((item) => item.id !== product.id));
-    // } else {
-    // if product is exit and qty  of that produt is not equal to 1
-    // then will run function call setCartItem
-    // inside setCartItem we will run map method
-    // this map() will check if item.id match to produt.id  then we have to desc the qty of product by 1
-    // setCartItems(
-    //   cartItems.map((item) =>
-    //     item.id === product.id
-    //       ? { ...productExit2, qty: productExit2.qty - 1 }
-    //       : item
-    //   )
-    // );
+    if (productExit2.qty === 1) {
+      setCartItems(cartItems.filter((item) => item.id !== product.id));
+    } else {
+      // if product is exit and qty  of that produt is not equal to 1
+      // then will run function call setCartItem
+      // inside setCartItem we will run map method
+      // this map() will check if item.id match to produt.id  then we have to desc the qty of product by 1
+      setCartItems(
+        cartItems.map((item) =>
+          item.id === product.id
+            ? { ...productExit2, qty: productExit2.qty - 1 }
+            : item
+        )
+      );
+    }
   };
 
   const addToWish = (parent, wishproduct) => {

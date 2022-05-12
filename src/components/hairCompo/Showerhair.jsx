@@ -30,7 +30,7 @@ class Showerhair extends Component {
           {shopproducts.map((item) =>
             item.id == 12
               ? item.hair_showergel
-                  .filter((user) => user.id < 5)
+                  .filter((user) => user.id < 181)
                   .map((user) => (
                     <article className="product">
                       <Link to={`/detailhairshower/${user.id}`}>
@@ -56,7 +56,7 @@ class Showerhair extends Component {
                           <div className="tooltip right">Add to Cart</div>
                           <button
                             className="cart"
-                            onClick={() => addToCart(item, user)}
+                            onClick={() => addToCart(user)}
                           >
                             <i className="fas fa-shopping-cart"></i>
                           </button>
@@ -83,7 +83,7 @@ class Showerhair extends Component {
             {shopproducts.map((item) =>
               item.id == 12
                 ? item.hair_showergel
-                    .filter((user) => user.id >= 5)
+                    .filter((user) => user.id >= 181)
                     .map((user) => (
                       <article className="product">
                         <Link to={`/detailhairshower/${user.id}`}>
@@ -109,7 +109,7 @@ class Showerhair extends Component {
                             <div className="tooltip right">Add to Cart</div>
                             <button
                               className="cart"
-                              onClick={() => addToCart(item, user)}
+                              onClick={() => addToCart(user)}
                             >
                               <i className="fas fa-shopping-cart"></i>
                             </button>
