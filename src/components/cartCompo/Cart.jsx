@@ -26,14 +26,17 @@ const CartData = ({ cartItems, addToCart, decreaseQty, removeall }) => {
                   </div>
                   <div className="cart-details">
                     <h3>{item.name}</h3>
-                    <h4>
-                      ${item.price}.00 * {item.qty}
+                    <div>
+                      <h4>
+                        ${item.price}.00 * {item.qty}
+                      </h4>
                       <span>${productQty}.00</span>
-                    </h4>
+                    </div>
                   </div>
+
                   <div className="cart-items-function">
                     <div className="removeCart">
-                      <button className="removeCart">
+                      <button className="removeCart1">
                         <i
                           className="fa-solid fa-xmark"
                           onClick={() => removeall(item)}
@@ -43,7 +46,7 @@ const CartData = ({ cartItems, addToCart, decreaseQty, removeall }) => {
                     {/* stpe: 5 
                     product ko qty lai inc ra des garne
                     */}
-                    <div className="cartControl b_flex">
+                    <div className="cartControl c_flex">
                       <button
                         className="incCart"
                         onClick={() => addToCart(item)}

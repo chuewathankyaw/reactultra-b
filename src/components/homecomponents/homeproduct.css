@@ -173,8 +173,8 @@ button.white {
   font-size: 13px;
   font-weight: 600;
   padding: 11px 18px;
-  color: #000;
-  background-color: #a84b4b;
+  color: #000 !important;
+  background-color: #a84b4b !important;
   cursor: pointer;
   border: 1px solid #000;
   outline: none;
@@ -185,8 +185,8 @@ button.white-1 {
   font-size: 13px;
   font-weight: 600;
   padding: 11px 18px;
-  color: #000;
-  background-color: #577a54;
+  color: #000 !important;
+  background-color: #577a54 !important;
   cursor: pointer;
   border: 1px solid #000;
   outline: none;
