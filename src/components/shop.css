@@ -41,6 +41,19 @@
   font-size: 4rem;
   color: rgb(207, 178, 105);
 }
+
+.icon button:focus {
+  color: #706fd3;
+  border: 2px solid #3158da;
+  box-shadow: 0px 0px 0px 1px rgb(58, 57, 110, green, blue);
+  animation: anim-shadow 0.3s forwards;
+}
+
+@keyframes anim-shadow {
+  100% {
+    box-shadow: 0px 0px 50px 20px rgba(112, 111, 211, 0.1);
+  }
+}
 /* .header-title{
     background: url(/ForUltra-B/images/skincare.banner.jpg);
     color: #A63535;

@@ -90,6 +90,14 @@ function App() {
     }
   };
 
+  const removeall = (product) => {
+    // const productExit3 = cartItems.find((item) => item.id === product.id);
+    // if (productExit3) {
+    //   setCartItems(cartItems.filter((item) => item.id !== product.id));
+    // }
+    setCartItems(cartItems.filter((item) => item.id !== product.id));
+  };
+
   const addToWish = (parent, wishproduct) => {
     const wishlistExit = wishItem.find((item) =>
       item.id == parent.id
@@ -200,6 +208,7 @@ function App() {
               cartItems={cartItems}
               addToCart={addToCart}
               decreaseQty={decreaseQty}
+              removeall={removeall}
             />
           }
         />
