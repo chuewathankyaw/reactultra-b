@@ -68,8 +68,8 @@ const Footer = () => {
           <img src="images/photo_2022-03-24_11-44-13.jpg" alt="" />
         </div>
       </div>
-      <div className="copyright">
-        <p> &#169 2021, Tech2 ect - HTML CSS Ecommerce Template</p>
+      <div class="copyright">
+        <p>&copy; 2021, Tech2 ect - HTML CSS Ecommerce Template</p>
       </div>
     </footer>
   );

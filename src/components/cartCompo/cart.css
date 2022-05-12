@@ -70,6 +70,9 @@
 }
 .cartControl {
   margin-top: 50px;
+  background-color: pink;
+  padding: 0px 15px;
+  border-radius: 10px;
 }
 .cartControl button {
   width: 40px;
@@ -77,6 +80,7 @@
   margin: 10px;
   border-radius: 5px;
   font-size: 20px;
+  background: transparent;
 }
 .incCart {
   background: none;
@@ -118,7 +122,7 @@
   box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
   margin: 10px;
 }
-.productcart h3 {
+/* .productcart h3 {
   font-weight: 400;
   font-size: 26px;
 }
@@ -146,6 +150,95 @@
   cursor: pointer;
   background-color: #e94560;
   color: #fff;
-}
+} */
 
 /*---------product-----------*/
+@media screen and (min-width: 700px) and (max-width: 800px) {
+  .cartControl button {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    font-size: 15px;
+  }
+  .cart-items .cart-details h3 {
+    font-size: 15px;
+  }
+  .cart-items .cart-details h4 {
+    font-size: 13px;
+  }
+  .cart-items h4 span {
+    margin-left: 13px;
+  }
+  .cart-total h3 {
+    font-size: 18px;
+  }
+  .cart-total h4 {
+    font-size: 15px;
+  }
+  .cart-items .cart-total {
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 700px) {
+  .cartControl button {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    font-size: 15px;
+  }
+  .cart-items .cart-details h3 {
+    font-size: 15px;
+  }
+  .cart-items .cart-details h4 {
+    font-size: 10px;
+  }
+  .cart-items h4 span {
+    margin-left: 10px;
+  }
+  .cart-total h3 {
+    font-size: 15px;
+  }
+  .cart-total h4 {
+    font-size: 12px;
+  }
+  .cart-items .cart-total {
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 550px) {
+  .cart-items .cart-details {
+    width: 100%;
+  }
+  .cart-items .cart-details h3 {
+    font-size: 20px;
+  }
+  .cart-items .cart-details h4 {
+    font-size: 18px;
+  }
+  .cart-items h4 span {
+    margin-left: 18px;
+  }
+  .cart-total h3 {
+    font-size: 25px;
+  }
+  .cart-total h4 {
+    font-size: 20px;
+  }
+  .cart-items .cart-total {
+    margin-left: 0px;
+  }
+  .d_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .cart-items .cart-total {
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 150px;
+  }
+  .cart-list .img {
+    width: 100%;
+  }
+}

@@ -150,13 +150,13 @@ section#our-blog {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  color: #a5586e;
+  color: #a5586e !important;
   font-size: 20px;
 }
 
 .blog-2 {
   background-image: url(../../../public/images/blog2.jpg);
-  color: #456140;
+  color: #456140 !important;
 }
 
 .blog .blog-1 p,
@@ -194,12 +194,12 @@ button.white-1 {
 }
 
 button.white:hover {
-  background: transparent;
+  background: transparent !important;
   border: 1px solid #a84b4b;
 }
 
 button.white-1:hover {
-  background: transparent;
+  background: transparent !important;
   border: 1px solid #577a54;
 }
 /* end of thaw thaw blog css */
@@ -426,7 +426,7 @@ button.white-1:hover {
     width: 0;
     height: 0 !important;
   }
-  
+
   #aboutus {
     flex-direction: column;
     padding-top: 2rem;

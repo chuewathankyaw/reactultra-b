@@ -92,8 +92,8 @@ footer .sign-up {
   border-bottom-right-radius: 0;
 }
 .form button {
-  background-color: #088178;
-  color: #fff;
+  background-color: #088178 !important;
+  color: #fff !important;
   white-space: nowrap;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;

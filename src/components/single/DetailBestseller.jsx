@@ -4,7 +4,7 @@ import { bestseller } from "../bestsellercomponents/bestsellerdata";
 import Footer from "../footer/Footer";
 
 import DetailForProduct from "./detailproduct/Detailforproduct";
-
+import "./detailproduct/detail.css";
 export default function DetailBestseller({ shopdata, addToCart }) {
   const productid = useParams();
   console.log("prodcct id", productid.id);
