@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import DetailForProduct from "./detailproduct/Detailforproduct";
 import Head from "../head/Head";
 import Footer from "../footer/Footer";
-
+import "./detailproduct/detail.css";
 export default function DetailMakeupFoun({ shopdata, addToCart }) {
   const productid = useParams();
   console.log("prodcct id", productid.id);

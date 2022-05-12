@@ -1,93 +1,147 @@
-.header-wishlist h2 {
-  margin-top: 5rem;
-  margin-left: 10rem;
-  color: #a04cd7;
+.wish-table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
 }
-.table {
-  border: #000 1px solid;
-  margin-top: 1rem;
-  margin-bottom: 4rem;
+.wish-head {
+  border-bottom: 1px solid;
+  color: #4a046a;
 }
-
-.first-tab {
-  display: flex;
-  margin-top: 1rem;
-  border-bottom: #000 1px solid;
+.head-row th {
+  padding-left: 6rem;
+  padding-right: 4rem;
+  font-size: 1.5rem;
 }
-
-.first-tab h4 {
-  margin-right: 15rem;
-  margin-bottom: 1rem;
-  margin-left: 2rem;
+.wish-img {
+  height: 15rem;
 }
-
-.sec-tab h4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 2rem;
-  font-weight: 200;
-  color: rgb(125, 121, 121);
+.table-body {
+  border-bottom: 1px solid;
+  color: #4a046a;
 }
-@media screen and (min-width: 1240px) and (max-width: 1320px) {
-  .container {
-    width: var(--container-width-lg);
-    margin: 0 auto;
-    max-width: 1320px;
-    margin-bottom: 4rem;
-  }
+.body-row td {
+  margin-top: 10rem;
 }
-@media screen and (min-width: 920px) and (max-width: 1240px) {
-  .container {
-    width: var(--container-width-lg);
-    margin: 0 auto;
-    max-width: 1240px;
-    margin-bottom: 4rem;
-  }
+.wish-title {
+  font-size: 1.5rem;
+  text-align: center;
 }
-
-@media screen and (min-width: 580px) and (max-width: 920px) {
-  .container {
-    width: var(--container-width-md);
-    margin: 0 auto;
-    max-width: 920px;
-    margin-bottom: 4rem;
-  }
-
-  .first-tab h4 {
-    margin-right: 5rem;
-  }
-
-  .header-wishlist h2 {
-    margin-left: 3rem;
-  }
+.wish-price {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.xmart-icon {
+  font-size: 1.7rem;
+  text-align: center;
+  background-color: transparent;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+  color: #4a046a;
+  background-color: transparent;
+}
+.non {
+  margin-top: 3rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #4a046a;
 }
 
-@media screen and (min-width: 360px) and (max-width: 580px) {
-  .container {
-    width: var(--container-width-sm);
-    margin: 0 auto;
-    max-width: 580px;
+/* @media screen and (min-width: 1080px) and (max-width: 1240px) {
+  .wish-table {
+    margin-left: 10rem;
+    margin-right: 0rem;
   }
-
-  .banner {
-    height: 15rem;
+}
+@media screen and (min-width: 960px) and (max-width: 1080px) {
+  .wish-table {
+    margin-left: 4rem;
+    margin-right: 0rem;
   }
+} */
 
-  .banner h1 {
-    padding-top: 6rem;
+@media screen and (min-width: 640px) and (max-width: 960px) {
+  .wish-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
   }
-
-  .header-wishlist h2 {
-    font-size: 1.5rem;
-    margin-left: 1rem;
+  .wish-head {
+    border-bottom: 1px solid;
+    color: #4a046a;
   }
-
-  .first-tab h4 {
-    margin-right: 1rem;
-    font-size: 1rem;
-  }
-
-  .sec-tab h4 {
+  .head-row th {
+    padding-left: 4rem;
+    padding-right: 2rem;
     font-size: 1.2rem;
+  }
+  .wish-img {
+    height: 10rem;
+  }
+  .table-body {
+    border-bottom: 1px solid;
+    color: #4a046a;
+  }
+  .body-row td {
+    margin-top: 10rem;
+  }
+  .wish-title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .wish-price {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .xmart-icon {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .non {
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #4a046a;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .wish-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+  }
+  .wish-head {
+    border-bottom: 1px solid;
+    color: #4a046a;
+  }
+  .head-row th {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  }
+  .wish-img {
+    height: 5rem;
+  }
+  .table-body {
+    border-bottom: 1px solid;
+    color: #4a046a;
+  }
+  .body-row td {
+    margin-top: 10rem;
+  }
+  .wish-title {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .wish-price {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .xmart-icon {
+    font-size: 1rem;
+    text-align: center;
   }
 }

@@ -18,6 +18,7 @@ class EyeShadowmakeup extends Component {
 
   render() {
     const addToCart = this.props.addToCart;
+    const addToWish = this.props.addToWish;
 
     const x = this.state.divcontainer;
     const shopproducts = this.props.products;
@@ -28,7 +29,7 @@ class EyeShadowmakeup extends Component {
           {shopproducts.map((item) =>
             item.id == 5
               ? item.makeup_eyeshadow
-                  .filter((user) => user.id < 5)
+                  .filter((user) => user.id < 69)
                   .map((user) => (
                     <article className="product">
                       <Link to={`/detailmakupeyeshadow/${user.id}`}>
@@ -62,9 +63,12 @@ class EyeShadowmakeup extends Component {
 
                         <div className="icon">
                           <div className="tooltip top">Favoriate</div>
-                          <a href="#" className="product-wish">
+                          <button
+                            className="product-wish"
+                            onClick={() => addToWish(item, user)}
+                          >
                             <i className="fa fa-heart "></i>
-                          </a>
+                          </button>
                         </div>
                       </div>
                     </article>
@@ -78,7 +82,7 @@ class EyeShadowmakeup extends Component {
             {shopproducts.map((item) =>
               item.id == 5
                 ? item.makeup_eyeshadow
-                    .filter((user) => user.id >= 5)
+                    .filter((user) => user.id >= 69)
                     .map((user) => (
                       <article className="product">
                         <Link to={`/detailmakupeyeshadow/${user.id}`}>
@@ -112,9 +116,12 @@ class EyeShadowmakeup extends Component {
 
                           <div className="icon">
                             <div className="tooltip top">Favoriate</div>
-                            <a href="#" className="product-wish">
+                            <button
+                              className="product-wish"
+                              onClick={() => addToWish(item, user)}
+                            >
                               <i className="fa fa-heart "></i>
-                            </a>
+                            </button>
                           </div>
                         </div>
                       </article>

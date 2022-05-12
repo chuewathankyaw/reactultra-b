@@ -5,7 +5,7 @@ import "./detailproduct/detail.css";
 import { shop } from "../shopdata2";
 import { useParams } from "react-router-dom";
 import DetailForProduct from "./detailproduct/Detailforproduct";
-
+import "./detailproduct/detail.css";
 import Footer from "../footer/Footer";
 
 function DetailNewArrival({ addToCart }) {

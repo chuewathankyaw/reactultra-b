@@ -96,7 +96,9 @@
   width: 70%;
   margin-left: 6.5rem;
 }
-
+.left-blog h3 {
+  margin-top: 1rem;
+}
 .last-blog img {
   height: 27rem;
   width: 100%;
@@ -109,7 +111,11 @@
 }
 
 .last-blog h4 {
+  margin-top: 1rem;
   font-size: 1rem;
+}
+.post h4 {
+  margin-top: 1rem;
 }
 
 /* .right-blog button {
