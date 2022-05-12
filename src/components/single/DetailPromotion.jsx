@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { shop } from "../shopdata2";
 import { useParams } from "react-router-dom";
 import DetailForProduct from "./detailproduct/Detailforproduct";
-
+import "./detailproduct/detail.css";
 import Footer from "../footer/Footer";
 
 function DetailPromotion({ addToCart }) {

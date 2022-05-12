@@ -107,7 +107,7 @@ button:not(:disabled) {
     color: #4a046a;
   }
 }
-@media screen and (min-width: 370px) and (max-width: 640px) {
+@media screen and (min-width: 360px) and (max-width: 640px) {
   .wish-table {
     margin-left: auto;
     margin-right: auto;

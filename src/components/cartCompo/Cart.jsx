@@ -52,7 +52,7 @@ const CartData = ({ cartItems, addToCart, decreaseQty }) => {
                         onClick={() => decreaseQty(item)}
                       >
                         <span>Remove</span>
-                        <i className="fa-solid fa-minus"></i>
+                        {/* <i className="fa-solid fa-minus"></i> */}
                       </button>
                     </div>
                   </div>
