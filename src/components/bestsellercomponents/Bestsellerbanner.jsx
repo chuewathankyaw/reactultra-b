@@ -13,7 +13,7 @@ export default function Bestsellerbanner() {
         <h3>aha-bha-pha</h3>
         <h3>30 days miracle sets</h3>
         <span>toner/body cleanser/serum</span>
-        <h2 className="price">125000MMK</h2>
+        <h2 className="price">125000 MMK</h2>
 
         <div className="star1">
           <i className="fas fa-star"></i>

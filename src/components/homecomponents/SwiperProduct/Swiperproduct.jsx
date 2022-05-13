@@ -50,7 +50,7 @@ export default function Swiperproduct({ addToCart, arrival, addToWish }) {
 
                       <div className="producthome-info">
                         <h5>{user.name}</h5>
-                        <h4>{user.price}MMK</h4>
+                        <h4>{user.price} MMK</h4>
                       </div>
                     </Link>
                     <div className="wrapperhome">
@@ -116,7 +116,7 @@ export default function Swiperproduct({ addToCart, arrival, addToWish }) {
 
                       <div className="producthome-info">
                         <h5>{user.name}</h5>
-                        <h4>{user.price}MMK</h4>
+                        <h4>{user.price} MMK</h4>
                       </div>
                     </Link>
                     <div className="wrapperhome">

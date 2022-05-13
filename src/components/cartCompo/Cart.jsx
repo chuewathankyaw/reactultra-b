@@ -28,9 +28,9 @@ const CartData = ({ cartItems, addToCart, decreaseQty, removeall }) => {
                     <h3>{item.name}</h3>
                     <div>
                       <h4>
-                        ${item.price}.00 * {item.qty}
+                        {item.price}.00 * {item.qty}
                       </h4>
-                      <span>${productQty}.00</span>
+                      <span>{productQty}.00 MMK</span>
                     </div>
                   </div>
 
@@ -72,7 +72,7 @@ const CartData = ({ cartItems, addToCart, decreaseQty, removeall }) => {
             <h2>Cart Summary</h2>
             <div className=" d_flex">
               <h4>Total Price :</h4>
-              <h3>${totalPrice}.00</h3>
+              <h3>{totalPrice}.00 MMK</h3>
             </div>
           </div>
         </div>
