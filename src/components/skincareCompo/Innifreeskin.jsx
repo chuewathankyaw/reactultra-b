@@ -50,7 +50,7 @@ class Innifreeskin extends Component {
 
                         <div className="product-info">
                           <h5>{user.name}</h5>
-                          <h4>{user.price}MMK</h4>
+                          <h4>{user.price} MMK</h4>
                         </div>
                       </Link>
                       <div className="wrapper">
@@ -68,7 +68,7 @@ class Innifreeskin extends Component {
                           <div className="tooltip top">Favoriate</div>
                           <button
                             className="product-wish"
-                            onClick={() => addToWish( user)}
+                            onClick={() => addToWish(user)}
                           >
                             <i className="fa fa-heart "></i>
                           </button>
@@ -102,7 +102,7 @@ class Innifreeskin extends Component {
 
                           <div className="product-info">
                             <h5>{user.name}</h5>
-                            <h4>{user.price}MMK</h4>
+                            <h4>{user.price} MMK</h4>
                           </div>
                         </Link>
                         <div className="wrapper">

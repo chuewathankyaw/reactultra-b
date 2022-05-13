@@ -50,7 +50,7 @@ export default function Swiperproduct({ addToCart, arrival, addToWish }) {
 
                       <div className="producthome-info">
                         <h5>{user.name}</h5>
-                        <h4>{user.price}MMK</h4>
+                        <h4>{user.price} MMK</h4>
                       </div>
                     </Link>
                     <div className="wrapperhome">
@@ -68,7 +68,7 @@ export default function Swiperproduct({ addToCart, arrival, addToWish }) {
                         <div className="tooltip tophome">Favoriate</div>
                         <button
                           className="producthome-wish"
-                          onClick={() => addToWish( user)}
+                          onClick={() => addToWish(user)}
                         >
                           <i className="fa fa-heart "></i>
                         </button>
@@ -116,7 +116,7 @@ export default function Swiperproduct({ addToCart, arrival, addToWish }) {
 
                       <div className="producthome-info">
                         <h5>{user.name}</h5>
-                        <h4>{user.price}MMK</h4>
+                        <h4>{user.price} MMK</h4>
                       </div>
                     </Link>
                     <div className="wrapperhome">

@@ -61,7 +61,7 @@ class FoundationArea extends Component {
 
                         <div className="product-info">
                           <h5>{user.name}</h5>
-                          <h4>{user.price}MMK</h4>
+                          <h4>{user.price} MMK</h4>
                         </div>
                       </Link>
 
@@ -114,7 +114,7 @@ class FoundationArea extends Component {
 
                           <div className="product-info">
                             <h5>{user.name}</h5>
-                            <h4>{user.price}MMK</h4>
+                            <h4>{user.price} MMK</h4>
                           </div>
                         </Link>
                         <div className="wrapper">
