@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component, useEffect, useState } from "react";
 import "./App.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -39,10 +39,51 @@ import CartPage1 from "./pages/cart/CartPage";
 import DetailPromotion from "./components/single/DetailPromotion";
 import DetailNewArrival from "./components/single/DetailNewArrival";
 function App() {
-  // const { skincareData } = shop.map((item)=> item.skin_fraijour);
+  const getLocalCartItems = () => {
+    let destrCartitem = localStorage.getItem("cartItems");
+
+    if (destrCartitem) {
+      return JSON.parse(localStorage.getItem("cartItems"));
+    } else {
+      return [];
+    }
+  };
+
+  const getLocalWishItems = () => {
+    let destrWishitem = localStorage.getItem("wishItem");
+
+    if (destrWishitem) {
+      return JSON.parse(localStorage.getItem("wishItem"));
+    } else {
+      return [];
+    }
+  };
+
   const shopdata = shop;
-  const [cartItems, setCartItems] = useState([]);
-  const [wishItem, setWishItem] = useState([]);
+  const [cartItems, setCartItems] = useState(getLocalCartItems());
+  const [wishItem, setWishItem] = useState(getLocalWishItems());
+
+  useEffect(() => {
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
+  }, [cartItems]);
+  useEffect(() => {
+    localStorage.setItem("wishItem", JSON.stringify(wishItem));
+  }, [wishItem]);
+
+  // const strcartItems = JSON.stringify(cartItems);
+  // const strwishItems = JSON.stringify(wishItem);
+  // console.log("str cart item is", strcartItems);
+
+  // localStorage.setItem("cartItems", strcartItems);
+  // localStorage.setItem("wishItem", strwishItems);
+
+  console.log("cart item storage ", cartItems);
+  console.log("wish item storage ", wishItem);
+
+  // const destrCartitem = JSON.parse(localStorage.getItem("cartItems"));
+  // const destrWishitem = JSON.parse(localStorage.getItem("wishItem"));
+
+  // console.log("destrCart item is", destrCartitem);
 
   const addToCart = (product) => {
     const productExit = cartItems.find((item) => item.id === product.id);
@@ -105,6 +146,7 @@ function App() {
 
     if (!wishlistExit) {
       setWishItem([...wishItem, { ...wishproduct, qty: 1 }]);
+    } else {
     }
   };
 
