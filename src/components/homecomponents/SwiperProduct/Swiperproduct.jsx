@@ -68,7 +68,7 @@ export default function Swiperproduct({ addToCart, arrival, addToWish }) {
                         <div className="tooltip tophome">Favoriate</div>
                         <button
                           className="producthome-wish"
-                          onClick={() => addToWish( user)}
+                          onClick={() => addToWish(user)}
                         >
                           <i className="fa fa-heart "></i>
                         </button>

@@ -24,7 +24,7 @@ const DetailForProduct = ({ product, addToCart }) => {
           <div className="box">
             <div className="row">
               <h2>{productDetail.title}</h2>
-              <span>{productDetail.price}</span>
+              <span>{productDetail.price} MMK</span>
             </div>
 
             <div className="colors">

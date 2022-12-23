@@ -74,6 +74,9 @@ const CartData = ({ cartItems, addToCart, decreaseQty, removeall }) => {
               <h4>Total Price :</h4>
               <h3>{totalPrice}.00 MMK</h3>
             </div>
+            <div className="check">
+              <button className="checkOut">Check Out</button>
+            </div>
           </div>
         </div>
       </div>
