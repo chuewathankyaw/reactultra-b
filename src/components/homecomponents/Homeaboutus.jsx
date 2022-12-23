@@ -32,7 +32,7 @@ export default function Homeaboutus() {
             <i className="uil uil-truck"></i>
           </a>
           <h3>Free Shipping</h3>
-          <h5>Free shipping for orders over 50000MMK</h5>
+          <h5>Free shipping for orders over 50000 MMK</h5>
         </div>
         <div className="com">
           <a href="#">
